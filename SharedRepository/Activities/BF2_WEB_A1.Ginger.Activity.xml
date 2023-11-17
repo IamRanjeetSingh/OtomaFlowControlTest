@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="b86baa66-0b23-48a1-b9f9-f28455e58e67" ItemType="Activity" CreatedBy="harsisin" Created="202311170622" GingerVersion="23.5.1.1" Version="1" LastUpdateBy="harsisin" LastUpdate="202311170622" />
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="BF2_WEB_A1" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="b86baa66-0b23-48a1-b9f9-f28455e58e67" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="MyWebApp" Type="Regular">
+<Acts>
+<ActDummy Active="True" Description="Action 1 that might fail" Guid="b90a099d-58f4-4509-be03-415333e373a1" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<FlowControls>
+<FlowControl Active="True" BusinessFlowControlAction="GoToBusinessFlow" FlowControlAction="GoToActivity" Guid="57fe0aae-62d6-4ee6-b366-b7f9dd0272ba" Operator="ActionFailed" ParentGuid="00000000-0000-0000-0000-000000000000" Status="Pending" Value="e26574ab-8ad1-4c4d-b540-4132963bc679#GUID_NAME#BF2_WEB_A3" />
+</FlowControls>
+
+<InputValues>
+<ActInputValue Guid="f26fd498-1dea-440d-9eb3-7b598be5fdd8" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+</ActDummy>
+</Acts>
+</Activity></GingerRepositoryItem>
