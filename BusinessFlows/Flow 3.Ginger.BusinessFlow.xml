@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="85d1d0fb-9b07-444f-a867-a59fab97c55a" ItemType="BusinessFlow" CreatedBy="harsisin" Created="202311170645" GingerVersion="23.5.1.1" Version="16" LastUpdateBy="harsisin" LastUpdate="202311211020" />
+<BusinessFlow Guid="85d1d0fb-9b07-444f-a867-a59fab97c55a" Name="Flow 3" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
+<Activities>
+<Activity Active="True" ActivitiesGroupID="GoToActivityExample" ActivityName="Ex1 - Activity 1" Guid="f5684226-6567-4666-8d5d-7c6c8cc30a54" ParentGuid="f5684226-6567-4666-8d5d-7c6c8cc30a54" Type="Link" />
+<Activity Active="True" ActivitiesGroupID="GoToActivityExample" ActivityName="Ex1 - Activity 2" Guid="1f043dfa-d88f-44e6-8e33-3fee23f6935e" ParentGuid="1f043dfa-d88f-44e6-8e33-3fee23f6935e" Type="Link" />
+<Activity Active="True" ActivitiesGroupID="GoToActivityExample" ActivityName="Ex1 - Activity 3" Guid="78e8ffb3-6807-477a-a253-b5fcd6e6cfbd" ParentGuid="78e8ffb3-6807-477a-a253-b5fcd6e6cfbd" Type="Link" />
+<Activity Active="True" ActivitiesGroupID="ReRunActivityExample" ActivityName="Ex2 - Activity 1" Guid="1cdfd7a0-960f-44a4-b86d-83f3bbc85dcf" ParentGuid="1cdfd7a0-960f-44a4-b86d-83f3bbc85dcf" Type="Link" />
+<Activity Active="True" ActivitiesGroupID="ReRunActivityExample" ActivityName="Ex2 - Activity 2" Guid="7a0ea3a1-7993-4603-92b4-b8a67e40b41f" ParentGuid="7a0ea3a1-7993-4603-92b4-b8a67e40b41f" Type="Link" />
+<Activity Active="True" ActivitiesGroupID="GoToActivityByNameExample" ActivityName="Ex3 - Activity 1" Guid="ba0203eb-ed79-473c-9389-41185b86d27f" ParentGuid="ba0203eb-ed79-473c-9389-41185b86d27f" Type="Link" />
+<Activity Active="True" ActivitiesGroupID="GoToActivityByNameExample" ActivityName="Ex3 - Activity 2" Guid="95dda4a7-cc03-40e0-9322-a477e46906f4" ParentGuid="95dda4a7-cc03-40e0-9322-a477e46906f4" Type="Link" />
+<Activity Active="True" ActivitiesGroupID="GoToActivityByNameExample" ActivityName="Ex3 - Activity 3" Guid="2981768e-a682-406a-8573-35e0fbfcc38c" ParentGuid="2981768e-a682-406a-8573-35e0fbfcc38c" Type="Link" />
+<Activity Active="True" ActivitiesGroupID="RunSharedRepositoryActivityExample" ActivityName="Ex4 - Activity 1" Guid="0e0fd4ae-f90b-4e91-91e5-a33d8b725acc" ParentGuid="0e0fd4ae-f90b-4e91-91e5-a33d8b725acc" Type="Link" />
+<Activity Active="True" ActivitiesGroupID="RunSharedRepositoryActivityExample" ActivityName="Ex4 - Activity 2" Guid="f29daf33-c3fb-4755-8ce5-68109eca3618" ParentGuid="f29daf33-c3fb-4755-8ce5-68109eca3618" Type="Link" />
+<Activity Active="True" ActivitiesGroupID="RunSharedRepositoryActivityExample" ActivityName="Ex4 - Activity 3" Guid="d4c2d022-cfa8-4e83-9e2d-ff33e4298b64" ParentGuid="d4c2d022-cfa8-4e83-9e2d-ff33e4298b64" Type="Link" />
+<Activity Active="True" ActivitiesGroupID="GoToNextActivityExample" ActivityName="Ex5 - Activity 1" Guid="7b946041-d85b-4257-a3f6-11cef177bdcd" ParentGuid="7b946041-d85b-4257-a3f6-11cef177bdcd" Type="Link" />
+<Activity Active="True" ActivitiesGroupID="GoToNextActivityExample" ActivityName="Ex5 - Activity 2" Guid="323aa46c-dfe7-4502-872b-b7124f23e3e7" ParentGuid="323aa46c-dfe7-4502-872b-b7124f23e3e7" Type="Link" />
+<Activity Active="True" ActivitiesGroupID="GoToNextActivityExample" ActivityName="Ex5 - Activity 3" Guid="59118b24-27b7-4a89-8562-b067ed5fdd00" ParentGuid="59118b24-27b7-4a89-8562-b067ed5fdd00" Type="Link" />
+<Activity Active="True" ActivitiesGroupID="StopBusinessFlowExample" ActivityName="Ex6 - Activity 1" Guid="903d2c9d-1a0a-44ce-846c-0b0f2b6117a6" ParentGuid="903d2c9d-1a0a-44ce-846c-0b0f2b6117a6" Type="Link" />
+<Activity Active="True" ActivitiesGroupID="StopBusinessFlowExample" ActivityName="Ex6 - Activity 2" Guid="783c9127-3716-4413-8777-f44f42ff0c95" ParentGuid="783c9127-3716-4413-8777-f44f42ff0c95" Type="Link" />
+<Activity Active="True" ActivitiesGroupID="FailActionAndStopBusinessFlowExample" ActivityName="Ex7 - Activity 1" Guid="a3b0286a-5049-4c38-bd91-407e72fcf5f4" ParentGuid="a3b0286a-5049-4c38-bd91-407e72fcf5f4" Type="Link" />
+<Activity Active="True" ActivitiesGroupID="FailActionAndStopBusinessFlowExample" ActivityName="Ex7 - Activity 2" Guid="477f8cfc-1018-4ce7-a0a5-b0b8b5dca289" ParentGuid="477f8cfc-1018-4ce7-a0a5-b0b8b5dca289" Type="Link" />
+<Activity Active="True" ActivitiesGroupID="StopRunExample" ActivityName="Ex8 - Activity 1" Guid="40b08dd8-099f-4034-b2bf-c201104271c8" ParentGuid="40b08dd8-099f-4034-b2bf-c201104271c8" Type="Link" />
+<Activity Active="True" ActivitiesGroupID="StopRunExample" ActivityName="Ex8 - Activity 2" Guid="8c7e1871-ed8f-4a78-aace-b1c52a048231" ParentGuid="8c7e1871-ed8f-4a78-aace-b1c52a048231" Type="Link" />
+</Activities>
+
+<ActivitiesGroups>
+<ActivitiesGroup Guid="d16a00a9-564b-467b-b753-e965b2e86883" Name="GoToActivityExample" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="f5684226-6567-4666-8d5d-7c6c8cc30a54" ActivityName="Ex1 - Activity 1" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="a40fd345-61b1-4d88-88d0-beff0121cd92" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="1f043dfa-d88f-44e6-8e33-3fee23f6935e" ActivityName="Ex1 - Activity 2" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="ae2bb141-6cca-46b6-8eba-e237e7bb5892" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="78e8ffb3-6807-477a-a253-b5fcd6e6cfbd" ActivityName="Ex1 - Activity 3" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="2c36d956-2663-4504-b66d-c469fe25120b" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+<ActivitiesGroup Guid="b1b9194a-7d4b-4160-a322-1bb36e8b275a" Name="ReRunActivityExample" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="1cdfd7a0-960f-44a4-b86d-83f3bbc85dcf" ActivityName="Ex2 - Activity 1" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="6e5bf9f4-09db-4e7e-a849-8619d338927e" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="7a0ea3a1-7993-4603-92b4-b8a67e40b41f" ActivityName="Ex2 - Activity 2" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="437d179a-2f68-4649-9281-b471eeac031d" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+<ActivitiesGroup Guid="975bf15f-8333-4517-a57b-c8dd4c03af2b" Name="GoToActivityByNameExample" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="ba0203eb-ed79-473c-9389-41185b86d27f" ActivityName="Ex3 - Activity 1" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="4ee4a5e2-c75f-4023-b6c9-25ff3c572861" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="95dda4a7-cc03-40e0-9322-a477e46906f4" ActivityName="Ex3 - Activity 2" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="14988c60-ac01-4371-9aba-bfd1707d95a4" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="2981768e-a682-406a-8573-35e0fbfcc38c" ActivityName="Ex3 - Activity 3" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="f7bf1494-817d-4310-b277-93a085850016" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+<ActivitiesGroup Guid="055edcd1-84e5-4aa7-9983-2d0634cfe335" Name="RunSharedRepositoryActivityExample" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="0e0fd4ae-f90b-4e91-91e5-a33d8b725acc" ActivityName="Ex4 - Activity 1" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="7835e389-2ea2-4926-bec2-65607c91be18" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="f29daf33-c3fb-4755-8ce5-68109eca3618" ActivityName="Ex4 - Activity 2" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="ef4a904f-facd-467d-a0cb-39fe9b553269" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="d4c2d022-cfa8-4e83-9e2d-ff33e4298b64" ActivityName="Ex4 - Activity 3" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="5f555fb8-4fd7-408e-86f7-9602588ec4b9" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+<ActivitiesGroup Guid="c47051ea-013e-4918-a630-c0335c8cbdb8" Name="GoToNextActivityExample" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="7b946041-d85b-4257-a3f6-11cef177bdcd" ActivityName="Ex5 - Activity 1" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="864f9892-c9c0-419b-b141-e6950ca682ba" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="323aa46c-dfe7-4502-872b-b7124f23e3e7" ActivityName="Ex5 - Activity 2" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="0bcc0397-cea1-4556-bca4-4f946d84cf11" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="59118b24-27b7-4a89-8562-b067ed5fdd00" ActivityName="Ex5 - Activity 3" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="62f7a58a-97b1-416f-ac71-e8c43ceec24b" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+<ActivitiesGroup Guid="c6dd6089-199f-4938-8938-3f619c96fa5b" Name="StopBusinessFlowExample" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="903d2c9d-1a0a-44ce-846c-0b0f2b6117a6" ActivityName="Ex6 - Activity 1" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="47d13996-9e22-49dc-99e8-c19fc08e3dfb" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="783c9127-3716-4413-8777-f44f42ff0c95" ActivityName="Ex6 - Activity 2" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="a5f1648a-0848-47d5-a744-d61ace20391c" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+<ActivitiesGroup Guid="a6567bc5-17e6-4cdf-aeda-c85232baed3f" Name="FailActionAndStopBusinessFlowExample" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="a3b0286a-5049-4c38-bd91-407e72fcf5f4" ActivityName="Ex7 - Activity 1" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="38c31ae0-84d5-4362-ad41-d5c9b7f6c64b" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="477f8cfc-1018-4ce7-a0a5-b0b8b5dca289" ActivityName="Ex7 - Activity 2" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="2e0adf08-4630-417e-893e-10ecb1df2a4b" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+<ActivitiesGroup Guid="00ab2dd1-eebe-4d8e-8fb5-07b253994a86" Name="StopRunExample" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="40b08dd8-099f-4034-b2bf-c201104271c8" ActivityName="Ex8 - Activity 1" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="f79e9069-2c0c-426d-8b4d-4488db8f672d" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="8c7e1871-ed8f-4a78-aace-b1c52a048231" ActivityName="Ex8 - Activity 2" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="ba4c96de-807c-4fa3-a618-c0d05d4bf047" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+</ActivitiesGroups>
+
+<TargetApplications>
+<TargetApplication AppName="MyWebApp" Guid="e0cc923c-dab6-4925-a94e-e896d3b42f60" ParentGuid="90ae6717-09b1-4baf-9395-1ce8d17738e0" />
+</TargetApplications>
+</BusinessFlow></GingerRepositoryItem>

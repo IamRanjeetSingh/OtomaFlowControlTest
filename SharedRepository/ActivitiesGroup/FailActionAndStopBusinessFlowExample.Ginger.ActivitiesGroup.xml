@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="a6567bc5-17e6-4cdf-aeda-c85232baed3f" ItemType="ActivitiesGroup" CreatedBy="harsisin" Created="202311211019" GingerVersion="23.5.1.1" Version="1" LastUpdateBy="harsisin" LastUpdate="202311211019" />
+<ActivitiesGroup Guid="a6567bc5-17e6-4cdf-aeda-c85232baed3f" Name="FailActionAndStopBusinessFlowExample" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="a3b0286a-5049-4c38-bd91-407e72fcf5f4" ActivityName="Ex7 - Activity 1" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="38c31ae0-84d5-4362-ad41-d5c9b7f6c64b" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="477f8cfc-1018-4ce7-a0a5-b0b8b5dca289" ActivityName="Ex7 - Activity 2" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="2e0adf08-4630-417e-893e-10ecb1df2a4b" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup></GingerRepositoryItem>

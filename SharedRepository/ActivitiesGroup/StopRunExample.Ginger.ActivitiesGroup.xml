@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="00ab2dd1-eebe-4d8e-8fb5-07b253994a86" ItemType="ActivitiesGroup" CreatedBy="harsisin" Created="202311211019" GingerVersion="23.5.1.1" Version="1" LastUpdateBy="harsisin" LastUpdate="202311211019" />
+<ActivitiesGroup Guid="00ab2dd1-eebe-4d8e-8fb5-07b253994a86" Name="StopRunExample" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="40b08dd8-099f-4034-b2bf-c201104271c8" ActivityName="Ex8 - Activity 1" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="f79e9069-2c0c-426d-8b4d-4488db8f672d" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="8c7e1871-ed8f-4a78-aace-b1c52a048231" ActivityName="Ex8 - Activity 2" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="ba4c96de-807c-4fa3-a618-c0d05d4bf047" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup></GingerRepositoryItem>
