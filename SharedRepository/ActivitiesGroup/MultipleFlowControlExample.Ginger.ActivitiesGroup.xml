@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="e5efe44d-b5f2-4a1f-9895-f1f1fe4e2367" ItemType="ActivitiesGroup" CreatedBy="harsisin" Created="202311271124" GingerVersion="23.5.1.1" Version="1" LastUpdateBy="harsisin" LastUpdate="202311271124" />
+<ActivitiesGroup Guid="e5efe44d-b5f2-4a1f-9895-f1f1fe4e2367" Name="MultipleFlowControlExample" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="40c91632-9f42-461b-8ee3-dfd5e323de7d" ActivityName="Ex9 - Activity 1" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="0fb620c9-53e3-4311-876d-36dc19c1fa8d" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="cc6183c8-ba78-499b-b4e2-09bc86bb5a2c" ActivityName="Ex9 - Activity 2" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="8d13499b-7633-4edd-87a9-ba39318ca322" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="e29a9eed-8559-49c5-bf8c-8ad09f9461d6" ActivityName="Ex9 - Activity 3" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="bfbb7c73-4df7-428b-acda-d3b9c77fe4fb" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="b61a7dda-59e2-4590-92f4-ca87177413f6" ActivityName="Ex9 - Activity 4" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="47b3d6c7-4d99-4373-9264-9c02f9cae91c" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup></GingerRepositoryItem>
