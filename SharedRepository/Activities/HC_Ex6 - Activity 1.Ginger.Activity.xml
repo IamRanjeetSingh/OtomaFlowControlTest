@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="3022cc9d-2465-420a-8cff-001cbebeae3e" ItemType="Activity" CreatedBy="meni" Created="202312060705" GingerVersion="23.5.2.0" Version="1" LastUpdateBy="meni" LastUpdate="202312060705" />
-<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="HC_Ex6 - Activity 1" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="3022cc9d-2465-420a-8cff-001cbebeae3e" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="MyWebApp" Type="Regular">
+<GingerRepositoryItem><Header ItemGuid="3022cc9d-2465-420a-8cff-001cbebeae3e" ItemType="Activity" CreatedBy="meni" Created="202312060713" GingerVersion="23.5.2.0" Version="3" LastUpdateBy="meni" LastUpdate="202312060713" />
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="HC_FCTest_AG_6" ActivityName="HC_Ex6 - Activity 1" AutomationStatus="Development" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="3022cc9d-2465-420a-8cff-001cbebeae3e" ParentGuid="3022cc9d-2465-420a-8cff-001cbebeae3e" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="MyWebApp" Type="Regular">
 <Acts>
-<ActDummy Active="True" Description="Dummy Action" Guid="b31bd8ff-cd6d-4291-af8d-3c8050d4d00e" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<ActDummy Active="True" Description="Dummy Action" Guid="02d7174d-2bdf-4375-89c5-0aa60f3cdea8" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
 <FlowControls>
-<FlowControl Active="True" BusinessFlowControlAction="GoToBusinessFlow" FlowControlAction="RunSharedRepositoryActivity" Guid="f95cbd72-d8b9-45ae-95f1-134b8515e165" Operator="ActionFailed" ParentGuid="00000000-0000-0000-0000-000000000000" Status="Pending" Value="HC_SH5_Activity 1" />
-<FlowControl BusinessFlowControlAction="GoToBusinessFlow" FlowControlAction="GoToAction" Guid="691cdeb4-ef31-45ad-9055-8f63a84fad75" Operator="ActionPassed" ParentGuid="00000000-0000-0000-0000-000000000000" Status="Pending" />
+<FlowControl Active="True" BusinessFlowControlAction="GoToBusinessFlow" FlowControlAction="RunSharedRepositoryActivity" Guid="0e081232-d588-44e4-8a65-73855c635ba8" Operator="ActionFailed" ParentGuid="00000000-0000-0000-0000-000000000000" Status="Pending" Value="HC_SH5_Activity 1" />
+<FlowControl BusinessFlowControlAction="GoToBusinessFlow" FlowControlAction="GoToActivity" Guid="b3ab21e2-c737-451c-a04e-a4974e9cf906" Operator="ActionPassed" ParentGuid="00000000-0000-0000-0000-000000000000" Status="Pending" Value="7f598736-2c9f-4a29-b0ad-a91ffc7ac3ec#GUID_NAME#HC_Ex6 - Activity 2" />
 </FlowControls>
 
 <InputValues>
-<ActInputValue Guid="525c567c-6f54-40e9-9ea7-ea2fa7672820" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="1bd416d1-60ea-4691-a64e-5d2cf45ccdce" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </InputValues>
 </ActDummy>
 </Acts>
