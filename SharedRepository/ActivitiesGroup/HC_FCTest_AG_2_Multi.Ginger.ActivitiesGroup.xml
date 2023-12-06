@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="14e07fbe-52fd-42f2-82c1-7d9880167a05" ItemType="ActivitiesGroup" CreatedBy="meni" Created="202312051438" GingerVersion="23.5.2.0" Version="1" LastUpdateBy="meni" LastUpdate="202312051438" />
+<ActivitiesGroup Guid="14e07fbe-52fd-42f2-82c1-7d9880167a05" Name="HC_FCTest_AG_2_Multi" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="86ae26d1-85f7-4e77-825c-da468a37c298" ActivityName="HC_Ex2 - Activity 1" ActivityParentGuid="86ae26d1-85f7-4e77-825c-da468a37c298" Guid="220dbebe-4b27-4e71-8a63-90b12b88264c" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="0735f335-e373-4889-8358-3320ccfdefe8" ActivityName="HC_Ex2 - Activity 2" ActivityParentGuid="0735f335-e373-4889-8358-3320ccfdefe8" Guid="4500c1c7-e41d-4c06-82d3-cf1535713570" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="8975c0a2-a6cc-46f7-a788-318d7d1d2af3" ActivityName="HC_Ex2 - Activity 3" ActivityParentGuid="8975c0a2-a6cc-46f7-a788-318d7d1d2af3" Guid="06f07a8b-e061-4f9f-a742-037660c80e27" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup></GingerRepositoryItem>
