@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="bc4b9318-8d1a-4f53-bac4-8ae45094050b" ItemType="BusinessFlow" CreatedBy="meni" Created="202312060541" GingerVersion="23.5.2.0" Version="3" LastUpdateBy="meni" LastUpdate="202312060542" />
+<GingerRepositoryItem><Header ItemGuid="bc4b9318-8d1a-4f53-bac4-8ae45094050b" ItemType="BusinessFlow" CreatedBy="meni" Created="202312060541" GingerVersion="23.5.2.0" Version="5" LastUpdateBy="meni" LastUpdate="202312060547" />
 <BusinessFlow Guid="bc4b9318-8d1a-4f53-bac4-8ae45094050b" Name="HCFlow 1" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
 <Activities>
 <Activity Active="True" ActivitiesGroupID="HC_FCTest_AG" ActivityName="HC_Ex1 - Activity 1" Guid="ccf22106-bf07-4a1f-b036-b66c5d6b724c" ParentGuid="04b57191-9fce-404c-b15c-7abdf1f5cc88" Type="Link" />
@@ -8,6 +8,58 @@
 <Activity Active="True" ActivitiesGroupID="HC_FCTest_AG_2_Multi" ActivityName="HC_Ex2 - Activity 1" Guid="fa6a6923-c28b-470e-823b-2ced89994029" ParentGuid="86ae26d1-85f7-4e77-825c-da468a37c298" Type="Link" />
 <Activity Active="True" ActivitiesGroupID="HC_FCTest_AG_2_Multi" ActivityName="HC_Ex2 - Activity 2" Guid="792c0525-b994-4722-a5c8-621629d0afe8" ParentGuid="0735f335-e373-4889-8358-3320ccfdefe8" Type="Link" />
 <Activity Active="True" ActivitiesGroupID="HC_FCTest_AG_2_Multi" ActivityName="HC_Ex2 - Activity 3" Guid="1a07723c-ef40-49ae-8791-47be363f2fc5" ParentGuid="8975c0a2-a6cc-46f7-a788-318d7d1d2af3" Type="Link" />
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="HC_FCTest_AG_3" ActivityName="HC_Ex3 - Activity 1" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="1912194c-ac06-4749-bd0e-9ec796070410" ParentGuid="86ae26d1-85f7-4e77-825c-da468a37c298" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="MyWebApp" Type="Regular">
+<Acts>
+<ActDummy Active="True" Description="Action that might fail" Guid="a3b23759-0e6c-4709-8ac3-adc3e1491c18" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<FlowControls>
+<FlowControl Active="True" BusinessFlowControlAction="GoToBusinessFlow" FlowControlAction="GoToActivityByName" Guid="a1fefe01-c710-47bc-b96f-c29cb4931c16" Operator="ActionPassed" ParentGuid="00000000-0000-0000-0000-000000000000" Status="Pending" Value="HC_Ex3 - Activity 3" />
+</FlowControls>
+
+<InputValues>
+<ActInputValue Guid="227331d9-59fd-4f77-aa16-386873df03dd" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+</ActDummy>
+</Acts>
+</Activity>
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="HC_FCTest_AG_3" ActivityName="HC_Ex3 - Activity 2" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="10a31901-0601-4ac8-b987-54bba9514fa9" ParentGuid="0735f335-e373-4889-8358-3320ccfdefe8" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="MyWebApp" Type="Regular">
+<Acts>
+<ActDummy Active="True" Description="Dummy Action" Guid="d365f128-0cfe-4adc-926d-8079d5905a72" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<FlowControls>
+<FlowControl Active="True" BusinessFlowControlAction="GoToBusinessFlow" FlowControlAction="RerunActivity" Guid="ac50c717-fe8a-47c7-b0f1-f24cc1b6982b" Operator="ActionFailed" ParentGuid="00000000-0000-0000-0000-000000000000" Status="Pending" />
+</FlowControls>
+
+<InputValues>
+<ActInputValue Guid="5bd07260-e26f-45a0-96a4-088b372b1899" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+</ActDummy>
+</Acts>
+</Activity>
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="HC_FCTest_AG_3" ActivityName="HC_Ex3 - Activity 3" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="78eed4d2-18b7-4d2d-865e-25e4ee1c0e95" ParentGuid="8975c0a2-a6cc-46f7-a788-318d7d1d2af3" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="MyWebApp" Type="Regular">
+<Acts>
+<ActDummy Active="True" Description="Dummy Action" Guid="3fa3b073-9414-41de-9f5a-55aa16dcc8bc" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<FlowControls>
+<FlowControl Active="True" BusinessFlowControlAction="GoToBusinessFlow" FlowControlAction="GoToNextActivity" Guid="e2f492c6-1c48-4cf6-bb8b-3a14a88222ab" Operator="ActionPassed" ParentGuid="00000000-0000-0000-0000-000000000000" Status="Pending" />
+</FlowControls>
+
+<InputValues>
+<ActInputValue Guid="488e4384-58a5-4b8a-b884-d39a7fa05539" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+</ActDummy>
+</Acts>
+</Activity>
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="HC_FCTest_AG_3" ActivityName="HC_Ex3 - Activity 4" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="633bc362-6887-4c7f-930b-ced10c92c8b0" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="MyWebApp" Type="Regular">
+<Acts>
+<ActDummy Active="True" Description="Dummy Action" Guid="19b48f06-3e99-44e9-80b9-b10fa05db8de" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<FlowControls>
+<FlowControl Active="True" BusinessFlowControlAction="GoToBusinessFlow" FlowControlAction="StopRun" Guid="2057a3e0-5f1f-42e6-a52b-cda4db1cea09" Operator="ActionPassed" ParentGuid="00000000-0000-0000-0000-000000000000" Status="Pending" />
+</FlowControls>
+
+<InputValues>
+<ActInputValue Guid="d8aa068f-f3fe-4b0a-910b-9bf2d7aa53f8" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+</ActDummy>
+</Acts>
+</Activity>
 </Activities>
 
 <ActivitiesGroups>
@@ -23,6 +75,14 @@
 <ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="fa6a6923-c28b-470e-823b-2ced89994029" ActivityName="HC_Ex2 - Activity 1" ActivityParentGuid="86ae26d1-85f7-4e77-825c-da468a37c298" Guid="4d679acd-f45f-4749-be64-59ff5cc0dab6" ParentGuid="00000000-0000-0000-0000-000000000000" />
 <ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="792c0525-b994-4722-a5c8-621629d0afe8" ActivityName="HC_Ex2 - Activity 2" ActivityParentGuid="0735f335-e373-4889-8358-3320ccfdefe8" Guid="74080864-ebfe-4d81-b1fa-7aee4c4e7cfd" ParentGuid="00000000-0000-0000-0000-000000000000" />
 <ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="1a07723c-ef40-49ae-8791-47be363f2fc5" ActivityName="HC_Ex2 - Activity 3" ActivityParentGuid="8975c0a2-a6cc-46f7-a788-318d7d1d2af3" Guid="7e17017a-4bd9-43cf-bc4e-25bfaa30f057" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+<ActivitiesGroup Guid="776a16c6-10c3-4542-8c2e-7a5fa2963924" Name="HC_FCTest_AG_3" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="1912194c-ac06-4749-bd0e-9ec796070410" ActivityName="HC_Ex3 - Activity 1" ActivityParentGuid="86ae26d1-85f7-4e77-825c-da468a37c298" Guid="202932e5-a3f1-4269-a215-7261a102fdc6" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="10a31901-0601-4ac8-b987-54bba9514fa9" ActivityName="HC_Ex3 - Activity 2" ActivityParentGuid="0735f335-e373-4889-8358-3320ccfdefe8" Guid="2983501b-49be-4524-a223-d636ce8e5c65" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="78eed4d2-18b7-4d2d-865e-25e4ee1c0e95" ActivityName="HC_Ex3 - Activity 3" ActivityParentGuid="8975c0a2-a6cc-46f7-a788-318d7d1d2af3" Guid="0bdc1902-d12c-4b5a-8945-bdc8eb68525d" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="633bc362-6887-4c7f-930b-ced10c92c8b0" ActivityName="HC_Ex3 - Activity 4" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="7f8d8268-2c7a-428a-9c49-39a890f84f9e" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 </ActivitiesGroups>
