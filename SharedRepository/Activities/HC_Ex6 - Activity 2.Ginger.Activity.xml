@@ -1,7 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="7f598736-2c9f-4a29-b0ad-a91ffc7ac3ec" ItemType="Activity" CreatedBy="meni" Created="202312060705" GingerVersion="23.5.2.0" Version="1" LastUpdateBy="meni" LastUpdate="202312060705" />
-<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="HC_Ex6 - Activity 2" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="7f598736-2c9f-4a29-b0ad-a91ffc7ac3ec" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="MyWebApp" Type="Regular">
+<GingerRepositoryItem><Header ItemGuid="7f598736-2c9f-4a29-b0ad-a91ffc7ac3ec" ItemType="Activity" CreatedBy="meni" Created="202312081415" GingerVersion="23.5.2.0" Version="3" LastUpdateBy="meni" LastUpdate="202312081415" />
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="HC_FCTest_AG_6" ActivityName="HC_Ex6 - Activity 2" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="7f598736-2c9f-4a29-b0ad-a91ffc7ac3ec" ParentGuid="7f598736-2c9f-4a29-b0ad-a91ffc7ac3ec" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="MyWebApp" Type="Regular">
 <Acts>
-<ActDummy Active="True" Description="Dummy Action" Guid="081898f1-d039-48e6-b3c2-c0605d89df96" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow" />
+<ActDummy Active="True" Description="Dummy Action" Guid="70863a4a-2c49-4f05-a418-4c04f4c0b527" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<FlowControls>
+<FlowControl Active="True" BusinessFlowControlAction="GoToBusinessFlow" FlowControlAction="GoToActivity" Guid="68346118-2483-4f19-9e92-3ab41bc710d8" Operator="LastActivityPassed" ParentGuid="00000000-0000-0000-0000-000000000000" Status="Pending" Value="ccf22106-bf07-4a1f-b036-b66c5d6b724c#GUID_NAME#HC_Ex1 - Activity 1" />
+<FlowControl Active="True" BusinessFlowControlAction="GoToBusinessFlow" FlowControlAction="RunSharedRepositoryActivity" Guid="de768aff-48f9-42ef-97cb-456c3045dc21" Operator="LastActivityFailed" ParentGuid="00000000-0000-0000-0000-000000000000" Status="Pending" Value="HC_SH5_Activity 2" />
+<FlowControl Active="True" BusinessFlowControlAction="GoToBusinessFlow" FlowControlAction="RunSharedRepositoryActivity" Guid="d52285ec-877d-4465-a98d-06c237b81449" Operator="ActionPassed" ParentGuid="00000000-0000-0000-0000-000000000000" Status="Pending" Value="HC_SH5_Activity 3" />
+<FlowControl Active="True" BusinessFlowControlAction="GoToBusinessFlow" FlowControlAction="RunSharedRepositoryActivity" Guid="d862c4d7-1ada-4ce4-9c58-4727a52eec1c" Operator="ActionPassed" ParentGuid="00000000-0000-0000-0000-000000000000" Status="Pending" Value="HC_Ex4 - Activity 1" />
+<FlowControl BusinessFlowControlAction="GoToBusinessFlow" FlowControlAction="RunSharedRepositoryActivity" Guid="1799179b-9b10-473b-817e-199dbd83a0c0" Operator="ActionFailed" ParentGuid="00000000-0000-0000-0000-000000000000" Status="Pending" Value="HC_Ex4 - Activity 2" />
+<FlowControl Active="True" BusinessFlowControlAction="GoToBusinessFlow" Condition="A=A" FlowControlAction="RunSharedRepositoryActivity" Guid="09dfeecd-6c3d-484a-bdde-7367d118a5ad" Operator="CSharp" ParentGuid="00000000-0000-0000-0000-000000000000" Status="Pending" Value="HC_Ex4 - Activity 3" />
+<FlowControl Active="True" BusinessFlowControlAction="GoToBusinessFlow" Condition="B=B" FlowControlAction="RunSharedRepositoryActivity" Guid="2190c00e-8ee4-48fd-8286-a930cde3659f" Operator="Legacy" ParentGuid="00000000-0000-0000-0000-000000000000" Status="Pending" Value="HC_Ex3 - Activity 1" />
+</FlowControls>
+
+<InputValues>
+<ActInputValue Guid="9a10bec7-0ab8-47d9-9532-a1347c27ff6d" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+</ActDummy>
 </Acts>
 </Activity></GingerRepositoryItem>
