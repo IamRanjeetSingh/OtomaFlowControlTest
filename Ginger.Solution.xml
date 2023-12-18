@@ -1,9 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="815330a2-61e6-41ce-b3e7-b69301bedd3e" ItemType="Solution" CreatedBy="harsisin" Created="202310260844" GingerVersion="23.5.0.0" Version="3" LastUpdateBy="meni" LastUpdate="202312181522" />
+<GingerRepositoryItem><Header ItemGuid="815330a2-61e6-41ce-b3e7-b69301bedd3e" ItemType="Solution" CreatedBy="harsisin" Created="202310260844" GingerVersion="23.5.0.0" Version="4" LastUpdateBy="meni" LastUpdate="202312181532" />
 <Solution EncryptedValidationString="JPA/BNI6IDazzGaqiEGKCQ==" Guid="815330a2-61e6-41ce-b3e7-b69301bedd3e" Name="OtomaFlowControlTest" ParentGuid="00000000-0000-0000-0000-000000000000">
 <ApplicationPlatforms>
 <ApplicationPlatform AppName="MyWebApp" Guid="90ae6717-09b1-4baf-9395-1ce8d17738e0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" />
 <ApplicationPlatform AppName="MyWebServicesApp" Description="WebServices Application" Guid="10fc0508-6833-4ea2-81fe-1eda91a00c84" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="WebServices" />
+<ApplicationPlatform AppName="MyWebApp2" Description="Web Application" Guid="7b8e01ff-f285-40f1-8116-e0c72611e02a" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" />
 </ApplicationPlatforms>
 
 <ApplitoolsConfiguration>

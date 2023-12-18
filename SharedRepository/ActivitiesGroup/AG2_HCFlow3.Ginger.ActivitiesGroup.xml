@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="d190f5b5-99f9-414e-ad5c-79f25bb0816f" ItemType="ActivitiesGroup" CreatedBy="meni" Created="202312181534" GingerVersion="23.5.0.0" Version="1" LastUpdateBy="meni" LastUpdate="202312181534" />
+<ActivitiesGroup Guid="d190f5b5-99f9-414e-ad5c-79f25bb0816f" Name="AG2_HCFlow3" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="09b3d09b-60db-4ce2-886a-81fd64c15a9d" ActivityName="AG2_HCFlow3_Activity 1_MyWebAPP2" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="64be0d37-5783-44a1-ab72-51f1b95b109c" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup></GingerRepositoryItem>
