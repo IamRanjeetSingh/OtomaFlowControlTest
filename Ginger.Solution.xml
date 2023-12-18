@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="815330a2-61e6-41ce-b3e7-b69301bedd3e" ItemType="Solution" CreatedBy="harsisin" Created="202310260844" GingerVersion="23.5.1.1" Version="4" LastUpdateBy="harsisin" LastUpdate="202312111114" />
+<GingerRepositoryItem><Header ItemGuid="815330a2-61e6-41ce-b3e7-b69301bedd3e" ItemType="Solution" CreatedBy="harsisin" Created="202310260844" GingerVersion="23.5.0.0" Version="3" LastUpdateBy="meni" LastUpdate="202312181522" />
 <Solution EncryptedValidationString="JPA/BNI6IDazzGaqiEGKCQ==" Guid="815330a2-61e6-41ce-b3e7-b69301bedd3e" Name="OtomaFlowControlTest" ParentGuid="00000000-0000-0000-0000-000000000000">
 <ApplicationPlatforms>
 <ApplicationPlatform AppName="MyWebApp" Guid="90ae6717-09b1-4baf-9395-1ce8d17738e0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" />
@@ -11,7 +11,7 @@
 </ApplitoolsConfiguration>
 
 <ExecutionLoggerConfigurationSetList>
-<ExecutionLoggerConfiguration CentralLoggerEndPointUrl="https://gingertest:6001/" ExecutionLoggerConfigurationExecResultsFolder="~\ExecutionResults" ExecutionLoggerConfigurationIsEnabled="True" ExecutionLoggerConfigurationMaximalFolderSize="250" Guid="3a7c3b31-ea5b-4b48-835e-1e23a2a31a13" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" PublishLogToCentralDB="Yes" SelectedDataRepositoryMethod="LiteDB" Seq="0" />
+<ExecutionLoggerConfiguration DeleteLocalDataOnPublish="No" ExecutionLoggerConfigurationExecResultsFolder="~\ExecutionResults" ExecutionLoggerConfigurationIsEnabled="True" ExecutionLoggerConfigurationMaximalFolderSize="250" Guid="3a7c3b31-ea5b-4b48-835e-1e23a2a31a13" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" PublishLogToCentralDB="No" SelectedDataRepositoryMethod="LiteDB" Seq="0" />
 </ExecutionLoggerConfigurationSetList>
 
 <HTMLReportsConfigurationSetList>
