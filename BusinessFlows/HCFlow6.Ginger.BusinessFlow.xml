@@ -1,19 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="96fa61ad-3cfd-43d5-ba8f-7d9746819745" ItemType="BusinessFlow" CreatedBy="meni" Created="202312191243" GingerVersion="23.5.0.0" Version="11" LastUpdateBy="meni" LastUpdate="202312191540" />
+<GingerRepositoryItem><Header ItemGuid="96fa61ad-3cfd-43d5-ba8f-7d9746819745" ItemType="BusinessFlow" CreatedBy="meni" Created="202312191243" GingerVersion="23.5.0.0" Version="15" LastUpdateBy="meni" LastUpdate="202312191552" />
 <BusinessFlow Guid="96fa61ad-3cfd-43d5-ba8f-7d9746819745" Name="HCFlow6" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
 <Activities>
 <Activity Active="True" ActivitiesGroupID="AG1_HCFlow6" ActivityName="AG1_HCFlow6_Activity 1" Guid="ff9606c9-6f3b-4add-8482-71e40649e0df" ParentGuid="ff9606c9-6f3b-4add-8482-71e40649e0df" Type="Link" />
 <Activity Active="True" ActivitiesGroupID="AG1_HCFlow6" ActivityName="AG1_HCFlow6_Activity 2" Guid="ff5fe1c8-ebd1-4e2a-b7d1-b6bd2ba9c5f8" ParentGuid="ff5fe1c8-ebd1-4e2a-b7d1-b6bd2ba9c5f8" Type="Link" />
+<Activity Active="True" ActivitiesGroupID="AG2_HCFlow6" ActivityName="AG2_HCFlow6_Activity 1" Guid="6bf752bb-24e7-4246-8450-2c06300ff8da" ParentGuid="6bf752bb-24e7-4246-8450-2c06300ff8da" Type="Link" />
 </Activities>
 
 <ActivitiesGroups>
 <ActivitiesGroup Guid="1249c8bc-ee00-49a5-a874-e25eb952dfdf" Name="AG1_HCFlow6" ParentGuid="00000000-0000-0000-0000-000000000000">
 <ActivitiesIdentifiers>
 <ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="ff9606c9-6f3b-4add-8482-71e40649e0df" ActivityName="AG1_HCFlow6_Activity 1" ActivityParentGuid="ff9606c9-6f3b-4add-8482-71e40649e0df" Guid="a9cd7e14-5acd-446e-8754-5fec42d2749d" ParentGuid="00000000-0000-0000-0000-000000000000" />
-<ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="ff5fe1c8-ebd1-4e2a-b7d1-b6bd2ba9c5f8" ActivityName="AG1_HCFlow6_Activity 2" ActivityParentGuid="ff5fe1c8-ebd1-4e2a-b7d1-b6bd2ba9c5f8" Guid="dbd3c158-9b4d-4204-ac53-b197d6700a41" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="ff5fe1c8-ebd1-4e2a-b7d1-b6bd2ba9c5f8" ActivityName="AG1_HCFlow6_Activity 2" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="dbd3c158-9b4d-4204-ac53-b197d6700a41" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
-<ActivitiesGroup Guid="c95d39a0-fab3-4d80-b793-967d0237c6e7" Name="AG2_HCFlow6" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivitiesGroup Guid="c95d39a0-fab3-4d80-b793-967d0237c6e7" Name="AG2_HCFlow6" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="6bf752bb-24e7-4246-8450-2c06300ff8da" ActivityName="AG2_HCFlow6_Activity 1" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="f4f0996b-18db-455b-a7b4-0a6bd0d56a0d" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
 </ActivitiesGroups>
 
 <TargetApplications>
