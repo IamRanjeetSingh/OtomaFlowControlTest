@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="003e0092-4b36-42a9-ab80-7ddc4e698a68" ItemType="BusinessFlow" CreatedBy="meni" Created="202312191238" GingerVersion="23.5.0.0" Version="3" LastUpdateBy="meni" LastUpdate="202312191239" />
+<GingerRepositoryItem><Header ItemGuid="003e0092-4b36-42a9-ab80-7ddc4e698a68" ItemType="BusinessFlow" CreatedBy="meni" Created="202312191238" GingerVersion="23.5.0.0" Version="5" LastUpdateBy="meni" LastUpdate="202312191243" />
 <BusinessFlow Guid="003e0092-4b36-42a9-ab80-7ddc4e698a68" Name="HCFlow5" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
 <Activities>
-<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="AG1_HCFlow5" ActivityName="AG1_HCFlow5_Activity 1" AutomationStatus="Development" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="f99eb9ff-b2a2-4e94-a177-4a530c4df741" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="0%" POMMetaDataId="00000000-0000-0000-0000-000000000000" TargetApplication="MyWebApp" Type="Regular" />
+<Activity Active="True" ActivitiesGroupID="AG1_HCFlow5" ActivityName="AG1_HCFlow5_Activity 1" Guid="f99eb9ff-b2a2-4e94-a177-4a530c4df741" ParentGuid="f99eb9ff-b2a2-4e94-a177-4a530c4df741" Type="Link" />
 </Activities>
 
 <ActivitiesGroups>
 <ActivitiesGroup Guid="ead8255a-c8c0-4985-a98c-625c2b574854" Name="AG1_HCFlow5" ParentGuid="00000000-0000-0000-0000-000000000000">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="f99eb9ff-b2a2-4e94-a177-4a530c4df741" ActivityName="AG1_HCFlow5_Activity 1" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="a747d1a9-f060-42d6-bf29-9ad072e1bcd1" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="f99eb9ff-b2a2-4e94-a177-4a530c4df741" ActivityName="AG1_HCFlow5_Activity 1" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="a747d1a9-f060-42d6-bf29-9ad072e1bcd1" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 </ActivitiesGroups>
