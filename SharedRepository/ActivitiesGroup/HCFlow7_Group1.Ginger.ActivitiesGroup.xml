@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="72b63404-3a20-4c6b-ab79-c4e6bcfa350d" ItemType="ActivitiesGroup" CreatedBy="meni" Created="202312221005" GingerVersion="23.5.0.0" Version="1" LastUpdateBy="meni" LastUpdate="202312221005" />
+<ActivitiesGroup Guid="72b63404-3a20-4c6b-ab79-c4e6bcfa350d" Name="HCFlow7_Group1" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="e4e0e441-de93-4dc0-973a-cf22d1b4bbf5" ActivityName="HCFlow7_Group1_Activity 1_WS" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="8b923b3b-b597-472b-aadc-5953c9f0d49b" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="5f04e225-b967-42e7-b1cf-7085cce8287e" ActivityName="HCFlow7_Group1_Activity 2_Web" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="6f3a5e12-de06-4c64-8efb-8e3f5ab6b297" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="db421a7d-89a7-4af0-9839-de4b71a5c9e0" ActivityName="HCFlow7_Group1_Activity 3_Web2" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="c5fd57eb-5c5f-40a1-8471-017f6c657cc5" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup></GingerRepositoryItem>

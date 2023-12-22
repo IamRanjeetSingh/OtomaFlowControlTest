@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="e4e0e441-de93-4dc0-973a-cf22d1b4bbf5" ItemType="Activity" CreatedBy="meni" Created="202312221005" GingerVersion="23.5.0.0" Version="1" LastUpdateBy="meni" LastUpdate="202312221005" />
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="HCFlow7_Group1_Activity 1_WS" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="e4e0e441-de93-4dc0-973a-cf22d1b4bbf5" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="MyWebServicesApp" Type="Regular">
+<Acts>
+<ActDummy Active="True" Description="Dummy Action" Guid="8516bc11-e17c-4b53-ad56-b2f2b4b288d9" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<FlowControls>
+<FlowControl Active="True" BusinessFlowControlAction="GoToBusinessFlow" FlowControlAction="GoToActivity" Guid="a07d1f61-63be-4dc7-9dd3-fa25c02894b3" Operator="ActionPassed" ParentGuid="00000000-0000-0000-0000-000000000000" Status="Pending" Value="db421a7d-89a7-4af0-9839-de4b71a5c9e0#GUID_NAME#HCFlow7_Group1_Activity 3_Web2" />
+<FlowControl Active="True" BusinessFlowControlAction="GoToBusinessFlow" FlowControlAction="GoToActivity" Guid="e518424d-9745-43e0-81ee-98a077ca6f9f" Operator="ActionFailed" ParentGuid="00000000-0000-0000-0000-000000000000" Status="Pending" Value="db421a7d-89a7-4af0-9839-de4b71a5c9e0#GUID_NAME#HCFlow7_Group1_Activity 3_Web2" />
+</FlowControls>
+
+<InputValues>
+<ActInputValue Guid="c029c557-2e4f-4e2b-af9d-775d5547d236" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+</ActDummy>
+</Acts>
+
+<ConsumerApplications>
+<Consumer ConsumerGuid="90ae6717-09b1-4baf-9395-1ce8d17738e0" Guid="0ffe6ba0-8f99-4de6-8702-27d9aa4a3397" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ConsumerApplications>
+</Activity></GingerRepositoryItem>
