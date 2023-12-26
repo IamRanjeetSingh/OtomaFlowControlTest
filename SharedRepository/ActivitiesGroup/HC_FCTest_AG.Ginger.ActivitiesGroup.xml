@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="eebf3d50-3ca4-4a1d-89c1-b5e46c879dd2" ItemType="ActivitiesGroup" CreatedBy="meni" Created="202312051404" GingerVersion="23.5.2.0" Version="1" LastUpdateBy="meni" LastUpdate="202312051404" />
+<GingerRepositoryItem><Header ItemGuid="eebf3d50-3ca4-4a1d-89c1-b5e46c879dd2" ItemType="ActivitiesGroup" CreatedBy="meni" Created="202312051404" GingerVersion="23.5.0.0" Version="2" LastUpdateBy="meni" LastUpdate="202312261201" />
 <ActivitiesGroup Guid="eebf3d50-3ca4-4a1d-89c1-b5e46c879dd2" Name="HC_FCTest_AG" ParentGuid="00000000-0000-0000-0000-000000000000">
 <ActivitiesIdentifiers>
 <ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="04b57191-9fce-404c-b15c-7abdf1f5cc88" ActivityName="HC_Ex1 - Activity 1" ActivityParentGuid="f5684226-6567-4666-8d5d-7c6c8cc30a54" Guid="9044630d-e074-4b89-b6d2-ff6e15928340" ParentGuid="00000000-0000-0000-0000-000000000000" />

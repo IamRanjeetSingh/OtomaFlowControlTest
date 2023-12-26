@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="8731f0e2-8647-47a4-98ee-db0f2d242744" ItemType="BusinessFlow" CreatedBy="meni" Created="202312261202" GingerVersion="23.5.0.0" Version="4" LastUpdateBy="meni" LastUpdate="202312261204" />
+<BusinessFlow Guid="8731f0e2-8647-47a4-98ee-db0f2d242744" Name="HCFlow10" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
+<Activities>
+<Activity Active="True" ActivitiesGroupID="Group_HCFlow10" ActivityName="HCFlow10_Activity 1" Guid="9c1c57f2-411d-43cb-b0b1-9d34df175acc" ParentGuid="9c1c57f2-411d-43cb-b0b1-9d34df175acc" Type="Link" />
+</Activities>
+
+<ActivitiesGroups>
+<ActivitiesGroup Guid="edfeff8a-7fe4-453b-bdc3-c13071715c3e" Name="Group_HCFlow10" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="9c1c57f2-411d-43cb-b0b1-9d34df175acc" ActivityName="HCFlow10_Activity 1" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="d505e595-96e6-47cc-b81c-882a07031106" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+</ActivitiesGroups>
+
+<TargetApplications>
+<TargetApplication AppName="MyWebApp" Guid="ab584a4d-3657-447d-aa14-3704592a84fb" ParentGuid="90ae6717-09b1-4baf-9395-1ce8d17738e0" />
+</TargetApplications>
+</BusinessFlow></GingerRepositoryItem>

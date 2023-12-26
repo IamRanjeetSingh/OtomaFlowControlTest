@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="f7056286-e97e-4451-92fd-3a1288adfc83" ItemType="BusinessFlow" CreatedBy="harsisin" Created="202310300605" GingerVersion="23.5.1.1" Version="20" LastUpdateBy="harsisin" LastUpdate="202311201056" />
+<GingerRepositoryItem><Header ItemGuid="f7056286-e97e-4451-92fd-3a1288adfc83" ItemType="BusinessFlow" CreatedBy="harsisin" Created="202310300605" GingerVersion="23.5.0.0" Version="21" LastUpdateBy="meni" LastUpdate="202312261201" />
 <BusinessFlow Guid="f7056286-e97e-4451-92fd-3a1288adfc83" Name="Flow 2" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
 <Activities>
 <Activity Active="True" ActivitiesGroupID="Group_BF2" ActivityName="BF2_WEB_A1" Guid="b86baa66-0b23-48a1-b9f9-f28455e58e67" ParentGuid="b86baa66-0b23-48a1-b9f9-f28455e58e67" Type="Link" />

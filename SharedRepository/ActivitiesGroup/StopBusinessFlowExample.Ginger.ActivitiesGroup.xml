@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="c6dd6089-199f-4938-8938-3f619c96fa5b" ItemType="ActivitiesGroup" CreatedBy="harsisin" Created="202311211019" GingerVersion="23.5.1.1" Version="1" LastUpdateBy="harsisin" LastUpdate="202311211019" />
+<GingerRepositoryItem><Header ItemGuid="c6dd6089-199f-4938-8938-3f619c96fa5b" ItemType="ActivitiesGroup" CreatedBy="harsisin" Created="202311211019" GingerVersion="23.5.0.0" Version="2" LastUpdateBy="meni" LastUpdate="202312261201" />
 <ActivitiesGroup Guid="c6dd6089-199f-4938-8938-3f619c96fa5b" Name="StopBusinessFlowExample" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
 <ActivitiesIdentifiers>
 <ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="903d2c9d-1a0a-44ce-846c-0b0f2b6117a6" ActivityName="Ex6 - Activity 1" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="47d13996-9e22-49dc-99e8-c19fc08e3dfb" ParentGuid="00000000-0000-0000-0000-000000000000" />

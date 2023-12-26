@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="4a68295c-5cd8-44b0-8fa5-d75d44a60a87" ItemType="ActivitiesGroup" CreatedBy="harsisin" Created="202312071348" GingerVersion="23.5.1.1" Version="1" LastUpdateBy="harsisin" LastUpdate="202312071348" />
+<GingerRepositoryItem><Header ItemGuid="4a68295c-5cd8-44b0-8fa5-d75d44a60a87" ItemType="ActivitiesGroup" CreatedBy="harsisin" Created="202312071348" GingerVersion="23.5.0.0" Version="2" LastUpdateBy="meni" LastUpdate="202312261201" />
 <ActivitiesGroup Guid="4a68295c-5cd8-44b0-8fa5-d75d44a60a87" Name="BF5_Group_2" ParentGuid="00000000-0000-0000-0000-000000000000">
 <ActivitiesIdentifiers>
 <ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="1f9b59d0-b849-42b0-be9e-e4eec6c856a9" ActivityName="BF5 Activity 2" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="0f36549c-9fe1-420c-8795-62c877cf5c03" ParentGuid="00000000-0000-0000-0000-000000000000" />

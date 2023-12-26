@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="0687819d-2ac4-4f41-8f3a-803d9126a0dc" ItemType="Activity" CreatedBy="harsisin" Created="202311301030" GingerVersion="23.5.1.1" Version="1" LastUpdateBy="harsisin" LastUpdate="202311301030" />
+<GingerRepositoryItem><Header ItemGuid="0687819d-2ac4-4f41-8f3a-803d9126a0dc" ItemType="Activity" CreatedBy="harsisin" Created="202311301030" GingerVersion="23.5.0.0" Version="2" LastUpdateBy="meni" LastUpdate="202312261201" />
 <Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Ex10 - Activity 2" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="0687819d-2ac4-4f41-8f3a-803d9126a0dc" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="0%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="MyWebServicesApp" Type="Regular">
 <ConsumerApplications>
 <Consumer ConsumerGuid="90ae6717-09b1-4baf-9395-1ce8d17738e0" Guid="18ad5260-ff43-4f9f-a5b1-5e218e6ba3a4" ParentGuid="00000000-0000-0000-0000-000000000000" />

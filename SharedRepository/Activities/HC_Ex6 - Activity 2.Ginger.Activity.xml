@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="7f598736-2c9f-4a29-b0ad-a91ffc7ac3ec" ItemType="Activity" CreatedBy="meni" Created="202312081415" GingerVersion="23.5.2.0" Version="3" LastUpdateBy="meni" LastUpdate="202312081415" />
+<GingerRepositoryItem><Header ItemGuid="7f598736-2c9f-4a29-b0ad-a91ffc7ac3ec" ItemType="Activity" CreatedBy="meni" Created="202312081415" GingerVersion="23.5.0.0" Version="4" LastUpdateBy="meni" LastUpdate="202312261201" />
 <Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="HC_FCTest_AG_6" ActivityName="HC_Ex6 - Activity 2" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="7f598736-2c9f-4a29-b0ad-a91ffc7ac3ec" ParentGuid="7f598736-2c9f-4a29-b0ad-a91ffc7ac3ec" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="MyWebApp" Type="Regular">
 <Acts>
 <ActDummy Active="True" Description="Dummy Action" Guid="70863a4a-2c49-4f05-a418-4c04f4c0b527" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">

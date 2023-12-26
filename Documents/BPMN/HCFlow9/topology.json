@@ -1,0 +1,38 @@
+{
+  "systems" : {
+    "90ae6717-09b1-4baf-9395-1ce8d17738e0" : {
+      "version" : "26",
+      "lastEditLayer" : "c5bc7073-c69d-4076-987a-169838b1ba8a_26",
+      "uuid" : "90ae6717-09b1-4baf-9395-1ce8d17738e0",
+      "name" : "MyWebApp",
+      "type" : "Web",
+      "elementEnrichments" : { },
+      "isDeleted" : false
+    }
+  },
+  "interfaces" : {
+    "994fec35-f47c-4cb1-b03b-56db48cc048f" : {
+      "version" : "1",
+      "lastEditLayer" : "c5bc7073-c69d-4076-987a-169838b1ba8a_1",
+      "uuid" : "994fec35-f47c-4cb1-b03b-56db48cc048f",
+      "parentSystem" : "90ae6717-09b1-4baf-9395-1ce8d17738e0",
+      "name" : "POM Activity - Swag Labs 1",
+      "description" : "POM Activity - Swag Labs 1",
+      "interactionType" : "SCRIPT",
+      "consumerSystems" : [ ]
+    }
+  },
+  "interfaceMessages" : {
+    "994fec35-f47c-4cb1-b03b-56db48cc04aa" : {
+      "version" : "1",
+      "lastEditLayer" : "c5bc7073-c69d-4076-987a-169838b1ba8a_1",
+      "messageRef" : "994fec35-f47c-4cb1-b03b-56db48cc04aa",
+      "ownerInterface" : "994fec35-f47c-4cb1-b03b-56db48cc048f",
+      "name" : "POM Activity - Swag Labs 1",
+      "description" : "POM Activity - Swag Labs 1",
+      "messageType" : "Proprietary",
+      "direction" : "IN",
+      "elements" : { }
+    }
+  }
+}
