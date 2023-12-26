@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="5269ec2c-ae77-4d3d-b18b-ab5f9f4a0c65" ItemType="Agent" CreatedBy="harsisin" Created="202310260844" GingerVersion="23.5.0.0" Version="5" LastUpdateBy="meni" LastUpdate="202312261622" />
+<GingerRepositoryItem><Header ItemGuid="5269ec2c-ae77-4d3d-b18b-ab5f9f4a0c65" ItemType="Agent" CreatedBy="harsisin" Created="202310260844" GingerVersion="23.5.0.0" Version="6" LastUpdateBy="meni" LastUpdate="202312261623" />
 <Agent AgentType="Driver" DriverType="SeleniumChrome" Guid="5269ec2c-ae77-4d3d-b18b-ab5f9f4a0c65" Name="Chrome" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" Publish="True">
 <DriverConfiguration>
 <DriverConfigParam Description="Proxy Server:Port" Guid="b0e7fd3f-ee0e-4a92-976c-e5818cb77cd8" Parameter="Proxy" ParentGuid="00000000-0000-0000-0000-000000000000" />
