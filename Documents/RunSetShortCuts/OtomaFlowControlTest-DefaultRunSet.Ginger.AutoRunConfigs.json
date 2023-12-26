@@ -1,0 +1,99 @@
+{
+  "SolutionScmDetails": {
+    "SCMType": "GIT",
+    "SolutionRepositoryUrl": "https://github.com/IamRanjeetSingh/OtomaFlowControlTest.git",
+    "User": "hchauhan19",
+    "Password": "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",
+    "PasswordEncrypted": false,
+    "Branch": "main"
+  },
+  "AlmsDetails": [
+    {
+      "ALMType": "Jira",
+      "ALMSubType": "Xray",
+      "ServerURL": "http://99.80.254.65:8080",
+      "User": "menik",
+      "Password": "FF3rraClY2tsaA13Z8WK5w==",
+      "PasswordEncrypted": true,
+      "Domain": "_NoDomain_",
+      "Project": "GINGERMBT",
+      "ProjectKey": "10302",
+      "ConfigPackageFolderPath": "~\\\\\\\\Configurations\\\\JiraConfigurationsPackage",
+      "UseRest": true,
+      "IsDefault": true
+    }
+  ],
+  "EncryptionKey": "Abcd@1234",
+  "Runset": {
+    "Exist": false,
+    "Name": "Test suite 374 - Harsim_-8",
+    "EnvironmentName": "Default",
+ "AllowInterActivityFlowControls":true,
+    "Runners": [
+      {
+        "Name": "Runner 1",
+        "OnFailureRunOption": "StopAllBusinessFlows",
+        "AppAgentMappings": [
+          {
+            "ApplicationName": "MyWebApp",
+            "ApplicationID": "90ae6717-09b1-4baf-9395-1ce8d17738e0",
+            "AgentName": "MyWebApp - Agent 1",
+            "AgentID": "5269ec2c-ae77-4d3d-b18b-ab5f9f4a0c65"
+          }
+        ],
+        "BusinessFlows": [
+          {
+            "Exist": false,
+            "Name": "HCFlow10_Activity 1",
+            "InstanceID": "5de0672c-1fe0-414a-a6d5-6f99fad27728",
+            "SharedActivities": [
+              {
+                "SharedActivityName": "HCFlow10_Activity 1",
+                "SharedActivityID": "9c1c57f2-411d-43cb-b0b1-9d34df175acc"
+              }
+            ],
+            "InputValues": []
+          }
+        ]
+      }
+    ],
+    "Operations": [
+      {
+        "$type": "RunsetOperations.AlmPublishOperationExecConfig, Ginger.ExecuterService.Contracts",
+        "ALMType": "Jira",
+        "AlmTestSetLevel": "RunSet",
+        "ExportType": "EntitiesAndResults",
+        "TestCasesResultsToExport": "All",
+        "AttachActivitiesGroupsReport": true,
+        "UseUserVariableInRunInstanceName": true,
+        "UserVariableInRunInstance": "Otoma-Ginger Integration Run_{CS Exp=DateTime.Now}",
+        "AlmFieldsConfig": [
+          {
+            "FieldParentType": "TEST_SET",
+            "FieldID": "Reporter",
+            "FieldFrontendName": "Reporter",
+            "IsSystemField": false,
+            "FieldValue": "menik"
+          },
+          {
+            "FieldParentType": "TEST_CASE",
+            "FieldID": "Reporter",
+            "FieldFrontendName": "Reporter",
+            "IsSystemField": false,
+            "FieldValue": "menik"
+          },
+          {
+            "FieldParentType": "TEST_EXECUTION",
+            "FieldID": "Reporter",
+            "FieldFrontendName": "Reporter",
+            "IsSystemField": false,
+            "FieldValue": "menik"
+          }
+        ],
+        "Name": "Publish execution Results to ALM",
+        "Condition": "AlwaysRun",
+        "RunAt": "ExecutionEnd"
+      }
+    ]
+  }
+}

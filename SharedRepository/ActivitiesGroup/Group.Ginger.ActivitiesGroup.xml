@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="d7f9cf84-4955-423d-8c41-07c543166273" ItemType="ActivitiesGroup" CreatedBy="meni" Created="202312261537" GingerVersion="23.5.0.0" Version="1" LastUpdateBy="meni" LastUpdate="202312261537" />
+<ActivitiesGroup Guid="d7f9cf84-4955-423d-8c41-07c543166273" Name="Group" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="ccf22106-bf07-4a1f-b036-b66c5d6b724c" ActivityName="HC_Ex1 - Activity 1" ActivityParentGuid="04b57191-9fce-404c-b15c-7abdf1f5cc88" Guid="599ed618-b110-43ad-bf56-ae4211d78b9a" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="305bb79a-0c84-4d43-8605-6e43b8b2bc5b" ActivityName="HC_Ex1 - Activity 2" ActivityParentGuid="98f5e221-f6bd-4748-be34-58d3b72d0c84" Guid="6f689bbd-f142-46ad-8f1a-7344e99d2470" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="8ea83405-0524-4c45-b8cb-ebf8caea4a0c" ActivityName="HC_Ex1 - Activity 3" ActivityParentGuid="f9b8e7cc-6754-425d-aad7-418c9da2f041" Guid="e0ce7cf3-d00d-46dc-afd3-daea8b0e632e" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="fa6a6923-c28b-470e-823b-2ced89994029" ActivityName="HC_Ex2 - Activity 1" ActivityParentGuid="86ae26d1-85f7-4e77-825c-da468a37c298" Guid="479417da-11af-4ea2-8199-f6fb1f1fd7e0" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="792c0525-b994-4722-a5c8-621629d0afe8" ActivityName="HC_Ex2 - Activity 2" ActivityParentGuid="0735f335-e373-4889-8358-3320ccfdefe8" Guid="80ba3827-a46d-4075-b932-5b0733fae498" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="1a07723c-ef40-49ae-8791-47be363f2fc5" ActivityName="HC_Ex2 - Activity 3" ActivityParentGuid="8975c0a2-a6cc-46f7-a788-318d7d1d2af3" Guid="4e450394-0988-4eb3-b755-dcfb12a01f2b" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup></GingerRepositoryItem>

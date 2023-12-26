@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="5269ec2c-ae77-4d3d-b18b-ab5f9f4a0c65" ItemType="Agent" CreatedBy="harsisin" Created="202310260844" GingerVersion="23.5.0.0" Version="3" LastUpdateBy="meni" LastUpdate="202312261201" />
+<GingerRepositoryItem><Header ItemGuid="5269ec2c-ae77-4d3d-b18b-ab5f9f4a0c65" ItemType="Agent" CreatedBy="harsisin" Created="202310260844" GingerVersion="23.5.0.0" Version="4" LastUpdateBy="meni" LastUpdate="202312261606" />
 <Agent AgentType="Driver" DriverType="SeleniumChrome" Guid="5269ec2c-ae77-4d3d-b18b-ab5f9f4a0c65" Name="MyWebApp - Agent 1" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" Publish="True">
 <DriverConfiguration>
 <DriverConfigParam Description="Proxy Server:Port" Guid="b0e7fd3f-ee0e-4a92-976c-e5818cb77cd8" Parameter="Proxy" ParentGuid="00000000-0000-0000-0000-000000000000" />
@@ -37,5 +37,6 @@
 <DriverConfigParam Description="Sample Value is 'localhost:9222'.This allows to Connect to existing browser session on specific debug port instead of Launching a new browser" Guid="aa1fc9ba-0f31-4c3c-9795-2b86970edaab" Parameter="DebugAddress" ParentGuid="00000000-0000-0000-0000-000000000000" />
 <DriverConfigParam Description="Specifies the state of current session’s user prompt handler, You can change it from dismiss, accept, dismissAndNotify, acceptAndNotify, ignore" Guid="b822499b-bc6d-4318-a2fa-252aa5803908" Parameter="UnhandledPromptBehavior" ParentGuid="00000000-0000-0000-0000-000000000000" Value="dismissAndNotify" />
 <DriverConfigParam Description="The amount of maximum time (in seconds) to wait for the driver to load/connect" Guid="33b97a45-9056-471d-9fae-22a3def09030" Parameter="DriverLoadWaitingTime" ParentGuid="00000000-0000-0000-0000-000000000000" Value="30" />
+<DriverConfigParam Description="Use specific Version of browser. Only Testing browser versions are supported." Guid="aaa377bb-9ade-4fed-a50d-e03431791ef2" Parameter="BrowserVersion" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </DriverConfiguration>
 </Agent></GingerRepositoryItem>
