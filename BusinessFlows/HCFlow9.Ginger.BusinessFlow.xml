@@ -1,50 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="9a787789-e3de-4ff8-92be-5b99595c0485" ItemType="BusinessFlow" CreatedBy="meni" Created="202312261051" GingerVersion="23.5.0.0" Version="2" LastUpdateBy="meni" LastUpdate="202312261052" />
+<GingerRepositoryItem><Header ItemGuid="9a787789-e3de-4ff8-92be-5b99595c0485" ItemType="BusinessFlow" CreatedBy="meni" Created="202312261051" GingerVersion="23.5.0.0" Version="4" LastUpdateBy="meni" LastUpdate="202312261054" />
 <BusinessFlow Guid="9a787789-e3de-4ff8-92be-5b99595c0485" Name="HCFlow9" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
 <Activities>
-<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="POM Activity - Swag Labs 1" AutomationStatus="Development" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="994fec35-f47c-4cb1-b03b-56db48cc048f" ParentGuid="d7977413-9c3b-49dd-ab7c-c23fc7a1a98d" PercentAutomated="100%" POMMetaDataId="f07443e2-36df-47cb-8416-86fc82f94b4f" Publish="True" TargetApplication="MyWebApp" Type="Regular">
-<Acts>
-<ActBrowserElement Active="True" Description="Go to Url - Swag Labs" Guid="c3fe67dd-941c-41b5-867c-0f1e3e0c29eb" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
-<InputValues>
-<ActInputValue Guid="32087a94-75d6-4928-ac76-eef03c6b6c2a" Param="ControlAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="GotoURL" />
-<ActInputValue Guid="13671166-de13-4b3d-be05-ca3e4b6f9337" Param="LocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="NA" />
-<ActInputValue Guid="46f42d3e-429e-403d-a7dd-6f329eed0d4d" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Value="https://www.saucedemo.com/" />
-<ActInputValue Guid="eb048ca1-d1f3-4079-87a1-c92618506acf" Param="LocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" />
-</InputValues>
-</ActBrowserElement>
-<ActUIElement Active="True" Description="SetText - input text user-name" Guid="fcbc184a-2c33-4673-8b13-95f3d45f1c39" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
-<InputValues>
-<ActInputValue Guid="853785db-fbf2-477a-a8e5-a0ce4016d7d3" Param="ElementAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="SetText" />
-<ActInputValue Guid="db4eb25d-ff77-40ac-8817-a724abcac578" Param="ElementLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="POMElement" />
-<ActInputValue Guid="291f42b7-b1c4-4f06-8aff-4127007cb5e8" Param="ElementLocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" Value="75c9ea22-73aa-4f15-b667-dc12dde87bbc_d644dd09-5691-43d7-8ac4-eb584d887b09" />
-<ActInputValue Guid="2acc9bdd-32e7-4bfb-a4dd-258b6d5e7155" Param="ElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="TextBox" />
-<ActInputValue Guid="18c5f377-b22d-483e-8271-068a55a67283" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
-</InputValues>
-</ActUIElement>
-<ActUIElement Active="True" Description="SetText - input password" Guid="c68a7e16-e74a-4efc-b7ea-f7162d6f5527" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
-<InputValues>
-<ActInputValue Guid="592931df-c9ab-4a8b-9606-05b542871a32" Param="ElementAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="SetText" />
-<ActInputValue Guid="880b1407-fc9c-44b7-8e12-53b029fb76de" Param="ElementLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="POMElement" />
-<ActInputValue Guid="d8f22f0e-413d-42e0-947b-3ef44da68362" Param="ElementLocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" Value="75c9ea22-73aa-4f15-b667-dc12dde87bbc_5b6cc628-3941-4291-af70-6f632a328916" />
-<ActInputValue Guid="d4d800f6-b9cb-492c-bff7-cd81d46ff94f" Param="ElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="TextBox" />
-<ActInputValue Guid="f855feb2-58a4-43d9-b7a9-e7385eff590c" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
-</InputValues>
-</ActUIElement>
-<ActUIElement Active="True" Description="Click - input submit login-button Login" Guid="e93932c6-5a9c-4253-8da0-cad500fecb56" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
-<InputValues>
-<ActInputValue Guid="beda6b64-f255-4fe1-932a-ef11c2cab2bc" Param="ElementAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Click" />
-<ActInputValue Guid="968c99a9-ea0e-47f8-9be1-94fb061676ba" Param="ElementLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="POMElement" />
-<ActInputValue Guid="62400588-5acf-4a26-9625-5d4298583fa1" Param="ElementLocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" Value="75c9ea22-73aa-4f15-b667-dc12dde87bbc_9148161e-c4b5-4562-8aea-95d850ca816e" />
-<ActInputValue Guid="dd4b97d5-a1f2-42b0-b306-35fc4c0ca2c0" Param="ElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Button" />
-<ActInputValue Guid="25e31da5-5fe3-492e-be45-557c8f89147f" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
-</InputValues>
-</ActUIElement>
-</Acts>
-</Activity>
+<Activity Active="True" ActivitiesGroupID="Group_HCFlow9" ActivityName="POM Activity - Swag Labs 1" Guid="994fec35-f47c-4cb1-b03b-56db48cc048f" ParentGuid="994fec35-f47c-4cb1-b03b-56db48cc048f" Type="Link" />
 </Activities>
 
 <ActivitiesGroups>
-<ActivitiesGroup Guid="e566c6ab-b2bd-409b-9e52-cbbf891d1c66" Name="Group" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesGroup Guid="e566c6ab-b2bd-409b-9e52-cbbf891d1c66" Name="Group_HCFlow9" ParentGuid="00000000-0000-0000-0000-000000000000">
 <ActivitiesIdentifiers>
 <ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="994fec35-f47c-4cb1-b03b-56db48cc048f" ActivityName="POM Activity - Swag Labs 1" ActivityParentGuid="d7977413-9c3b-49dd-ab7c-c23fc7a1a98d" Guid="a1a4c1e3-a77b-4b7c-b96f-2249cf74ff2d" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
