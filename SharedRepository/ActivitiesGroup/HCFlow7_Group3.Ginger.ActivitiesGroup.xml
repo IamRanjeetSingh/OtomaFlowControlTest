@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="5f9b1e4d-563a-480e-bab1-c280525504f4" ItemType="ActivitiesGroup" CreatedBy="meni" Created="202312221154" GingerVersion="23.5.0.0" Version="1" LastUpdateBy="meni" LastUpdate="202312221154" />
+<ActivitiesGroup Guid="5f9b1e4d-563a-480e-bab1-c280525504f4" Name="HCFlow7_Group3" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="b65ad480-cbdf-4856-881a-0224ed57d765" ActivityName="HCFlow7_Group3_Activity 1" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="db3a3ae5-303b-4062-a238-8482d4326abd" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="37e5bc3d-3845-4e49-abab-dbb7aa2b3bc2" ActivityName="HCFlow7_Group3_Activity 2" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="032d313f-a0e4-4392-81d4-89fb1122ec24" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="0cf872a8-8a71-4997-8225-fcc6a4a717ac" ActivityName="HCFlow7_Group3_Activity 3" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="4fd88ce0-ee4e-44e7-9164-abfac847ec1e" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup></GingerRepositoryItem>

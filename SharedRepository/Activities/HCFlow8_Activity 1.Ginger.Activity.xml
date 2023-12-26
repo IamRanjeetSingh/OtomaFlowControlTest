@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="91ea9eb4-1bbe-4e73-926b-b8fccde6d33d" ItemType="Activity" CreatedBy="meni" Created="202312261036" GingerVersion="23.5.0.0" Version="3" LastUpdateBy="meni" LastUpdate="202312261036" />
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="HCFlow8_Group" ActivityName="HCFlow8_Activity 1" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="91ea9eb4-1bbe-4e73-926b-b8fccde6d33d" ParentGuid="91ea9eb4-1bbe-4e73-926b-b8fccde6d33d" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" TargetApplication="MyWebApp" Type="Regular">
+<Acts>
+<ActDummy Active="True" Description="Dummy Action" Guid="b615df9a-5ebd-4c8b-83a0-d0ef515a694a" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow" />
+</Acts>
+</Activity></GingerRepositoryItem>

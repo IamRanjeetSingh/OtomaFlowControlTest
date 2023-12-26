@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="b65ad480-cbdf-4856-881a-0224ed57d765" ItemType="Activity" CreatedBy="meni" Created="202312221154" GingerVersion="23.5.0.0" Version="1" LastUpdateBy="meni" LastUpdate="202312221154" />
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="HCFlow7_Group3_Activity 1" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="b65ad480-cbdf-4856-881a-0224ed57d765" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="MyWebApp" Type="Regular">
+<Acts>
+<ActDummy Active="True" Description="Dummy Action" Guid="4152d0a9-63bd-4f70-9f66-701ed68b01be" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<FlowControls>
+<FlowControl Active="True" BusinessFlowControlAction="GoToBusinessFlow" FlowControlAction="GoToActivity" Guid="31227b5c-b407-4da2-924d-181162f6a363" Operator="ActionPassed" ParentGuid="00000000-0000-0000-0000-000000000000" Status="Pending" Value="37e5bc3d-3845-4e49-abab-dbb7aa2b3bc2#GUID_NAME#HCFlow7_Group3_Activity 2" />
+<FlowControl Active="True" BusinessFlowControlAction="GoToBusinessFlow" FlowControlAction="GoToActivity" Guid="bc6a093f-87c5-47da-882e-25aa6b15e76f" Operator="ActionFailed" ParentGuid="00000000-0000-0000-0000-000000000000" Status="Pending" Value="0cf872a8-8a71-4997-8225-fcc6a4a717ac#GUID_NAME#HCFlow7_Group3_Activity 3" />
+</FlowControls>
+
+<InputValues>
+<ActInputValue Guid="54d6b96d-4d47-4588-841c-cc6b9671fd6d" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+</ActDummy>
+</Acts>
+</Activity></GingerRepositoryItem>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:camunda="http://camunda.org/schema/1.0/bpmn" xmlns:ig="http://insightguard.com/schema/1.0/bpmn" targetNamespace="http://bpmn.io/schema/bpmn">
+  <bpmn:collaboration id="Collaboration_8624c06c-7eec-46db-b1ee-27d48ae5a8b2" isClosed="false" name="HCFlow7_Group2">
+    <documentation id="doc_Collaboration_8624c06c-7eec-46db-b1ee-27d48ae5a8b2" textFormat="text/plain" xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" />
+    <bpmn:extensionElements xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL">
+      <ig:bpmnMetadata>
+        <ig:uuid>8624c06c-7eec-46db-b1ee-27d48ae5a8b2</ig:uuid>
+        <ig:bpmnName>HCFlow7_Group2</ig:bpmnName>
+        <ig:description></ig:description>
+        <ig:systemRef>90ae6717-09b1-4baf-9395-1ce8d17738e0</ig:systemRef>
+        <ig:domainRef>32</ig:domainRef>
+        <ig:collaborationType>SUBPROCESS</ig:collaborationType>
+      </ig:bpmnMetadata>
+    </bpmn:extensionElements>
+    <bpmn:participant id="participant_90ae6717-09b1-4baf-9395-1ce8d17738e0" ig:systemRef="90ae6717-09b1-4baf-9395-1ce8d17738e0" name="MyWebApp" processRef="participant_90ae6717-09b1-4baf-9395-1ce8d17738e0_process">
+      <bpmn:documentation textFormat="text/plain" />
+    </bpmn:participant>
+    <bpmn:participant id="participant_7b8e01ff-f285-40f1-8116-e0c72611e02a" ig:systemRef="7b8e01ff-f285-40f1-8116-e0c72611e02a" name="MyWebApp2" processRef="participant_7b8e01ff-f285-40f1-8116-e0c72611e02a_process">
+      <bpmn:documentation textFormat="text/plain" />
+    </bpmn:participant>
+    <bpmn:messageFlow id="flow_4a9975aa-7c0c-430a-8af4-02288c3e380a" ig:messageRef="" name="default" sourceRef="gateway_0ba2417d-4c58-4d24-9a1d-b3a38f7d0f72" targetRef="task_bb4e0c1d-6ce2-4cb7-b47b-1920d215d27e">
+      <bpmn:documentation textFormat="text/plain" />
+    </bpmn:messageFlow>
+  </bpmn:collaboration>
+  <bpmn:process id="participant_90ae6717-09b1-4baf-9395-1ce8d17738e0_process" isClosed="false" processType="None">
+    <bpmn:userTask completionQuantity="1" id="task_a0c10f36-b14b-46e5-aec0-e9d48669e4d2" isForCompensation="false" name="HCFlow7_Group2_Activity 1_Web" startQuantity="1" ig:messageRef="a0c10f36-b14b-46e5-aec0-e9d48669e4aa" implementation="##unspecified">
+      <bpmn:documentation textFormat="text/plain" />
+      <bpmn:extensionElements />
+      <bpmn:incoming>flow_ae4c8c5d-5dd8-4092-b28d-2239e1a3dd30</bpmn:incoming>
+      <bpmn:incoming>flow_e409dbe5-d580-43cc-a289-4cf7c53bb011</bpmn:incoming>
+      <bpmn:outgoing>flow_e5a7fe0b-46e2-4ecb-a2a8-eda58f02e5a5</bpmn:outgoing>
+    </bpmn:userTask>
+    <bpmn:userTask completionQuantity="1" id="task_1d2e984c-910a-41c0-8dd6-194e479b7254" isForCompensation="false" name="HCFlow7_Group2_Activity 2_Web" startQuantity="1" ig:messageRef="1d2e984c-910a-41c0-8dd6-194e479b72aa" implementation="##unspecified">
+      <bpmn:documentation textFormat="text/plain" />
+      <bpmn:extensionElements />
+      <bpmn:incoming>flow_e5a7fe0b-46e2-4ecb-a2a8-eda58f02e5a5</bpmn:incoming>
+      <bpmn:outgoing>flow_c313d3b9-2e21-4ddb-98e9-018a538ebc25</bpmn:outgoing>
+    </bpmn:userTask>
+    <bpmn:task completionQuantity="1" id="task_a2faa496-5060-4d59-a450-3f5e5b3b8d09" isForCompensation="false" name="FC - ActionPassed" startQuantity="1">
+      <bpmn:documentation textFormat="text/plain" />
+      <bpmn:extensionElements />
+      <bpmn:incoming>flow_86efd962-49e7-47f1-bbb8-7b5235a67eec</bpmn:incoming>
+      <bpmn:outgoing>flow_ae4c8c5d-5dd8-4092-b28d-2239e1a3dd30</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:exclusiveGateway gatewayDirection="Unspecified" id="gateway_0ba2417d-4c58-4d24-9a1d-b3a38f7d0f72" name="">
+      <bpmn:documentation textFormat="text/plain" />
+      <bpmn:incoming>flow_c313d3b9-2e21-4ddb-98e9-018a538ebc25</bpmn:incoming>
+      <bpmn:outgoing>flow_86efd962-49e7-47f1-bbb8-7b5235a67eec</bpmn:outgoing>
+      <bpmn:outgoing>flow_4a9975aa-7c0c-430a-8af4-02288c3e380a</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:startEvent id="event_8a253d6c-8335-466f-9ba8-2083ada46fd7" isInterrupting="true" name="" parallelMultiple="false">
+      <bpmn:documentation textFormat="text/plain" />
+      <bpmn:outgoing>flow_e409dbe5-d580-43cc-a289-4cf7c53bb011</bpmn:outgoing>
+    </bpmn:startEvent>
+    <bpmn:sequenceFlow id="flow_ae4c8c5d-5dd8-4092-b28d-2239e1a3dd30" name="GoToActivity" sourceRef="task_a2faa496-5060-4d59-a450-3f5e5b3b8d09" targetRef="task_a0c10f36-b14b-46e5-aec0-e9d48669e4d2">
+      <bpmn:documentation textFormat="text/plain" />
+    </bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="flow_e409dbe5-d580-43cc-a289-4cf7c53bb011" name="" sourceRef="event_8a253d6c-8335-466f-9ba8-2083ada46fd7" targetRef="task_a0c10f36-b14b-46e5-aec0-e9d48669e4d2">
+      <bpmn:documentation textFormat="text/plain" />
+    </bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="flow_e5a7fe0b-46e2-4ecb-a2a8-eda58f02e5a5" name="" sourceRef="task_a0c10f36-b14b-46e5-aec0-e9d48669e4d2" targetRef="task_1d2e984c-910a-41c0-8dd6-194e479b7254">
+      <bpmn:documentation textFormat="text/plain" />
+    </bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="flow_c313d3b9-2e21-4ddb-98e9-018a538ebc25" name="" sourceRef="task_1d2e984c-910a-41c0-8dd6-194e479b7254" targetRef="gateway_0ba2417d-4c58-4d24-9a1d-b3a38f7d0f72">
+      <bpmn:documentation textFormat="text/plain" />
+    </bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="flow_86efd962-49e7-47f1-bbb8-7b5235a67eec" name="" sourceRef="gateway_0ba2417d-4c58-4d24-9a1d-b3a38f7d0f72" targetRef="task_a2faa496-5060-4d59-a450-3f5e5b3b8d09">
+      <bpmn:documentation textFormat="text/plain" />
+    </bpmn:sequenceFlow>
+  </bpmn:process>
+  <bpmn:process id="participant_7b8e01ff-f285-40f1-8116-e0c72611e02a_process" isClosed="false" processType="None">
+    <bpmn:userTask completionQuantity="1" id="task_bb4e0c1d-6ce2-4cb7-b47b-1920d215d27e" isForCompensation="false" name="HCFlow7_Group2_Activity 3_Web2" startQuantity="1" ig:messageRef="bb4e0c1d-6ce2-4cb7-b47b-1920d215d2aa" implementation="##unspecified">
+      <bpmn:documentation textFormat="text/plain" />
+      <bpmn:extensionElements />
+      <bpmn:incoming>flow_4a9975aa-7c0c-430a-8af4-02288c3e380a</bpmn:incoming>
+      <bpmn:outgoing>flow_e92c6ec2-15ea-407b-ac70-c278567b3b53</bpmn:outgoing>
+    </bpmn:userTask>
+    <bpmn:endEvent id="event_b05b6ed8-1062-4246-911f-4aaff09267de" name="">
+      <bpmn:documentation textFormat="text/plain" />
+      <bpmn:incoming>flow_e92c6ec2-15ea-407b-ac70-c278567b3b53</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:sequenceFlow id="flow_e92c6ec2-15ea-407b-ac70-c278567b3b53" name="" sourceRef="task_bb4e0c1d-6ce2-4cb7-b47b-1920d215d27e" targetRef="event_b05b6ed8-1062-4246-911f-4aaff09267de">
+      <bpmn:documentation textFormat="text/plain" />
+    </bpmn:sequenceFlow>
+  </bpmn:process>
+</bpmn:definitions>
