@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="815330a2-61e6-41ce-b3e7-b69301bedd3e" ItemType="Solution" CreatedBy="harsisin" Created="202310260844" GingerVersion="23.5.0.0" Version="6" LastUpdateBy="meni" LastUpdate="202312261617" />
+<GingerRepositoryItem><Header ItemGuid="815330a2-61e6-41ce-b3e7-b69301bedd3e" ItemType="Solution" CreatedBy="harsisin" Created="202310260844" GingerVersion="23.5.0.0" Version="7" LastUpdateBy="meni" LastUpdate="202312261619" />
 <Solution EncryptedValidationString="JPA/BNI6IDazzGaqiEGKCQ==" Guid="815330a2-61e6-41ce-b3e7-b69301bedd3e" Name="OtomaFlowControlTest" ParentGuid="00000000-0000-0000-0000-000000000000">
 <ApplicationPlatforms>
 <ApplicationPlatform AppName="MyWebApp" Guid="90ae6717-09b1-4baf-9395-1ce8d17738e0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" />
