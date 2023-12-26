@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="28193202-5e4f-4acb-bfe0-7714b3d08617" ItemType="BusinessFlow" CreatedBy="meni" Created="202312261617" GingerVersion="23.5.0.0" Version="1" LastUpdateBy="meni" LastUpdate="202312261617" />
+<BusinessFlow Guid="28193202-5e4f-4acb-bfe0-7714b3d08617" Name="Flow11" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
+<Activities>
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Activity 1" AutomationStatus="Development" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="b70e73f1-d284-47e0-a331-75b43a099136" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="0%" POMMetaDataId="00000000-0000-0000-0000-000000000000" TargetApplication="MyWebApp" Type="Regular" />
+</Activities>
+
+<ActivitiesGroups>
+<ActivitiesGroup Guid="59dec129-abf7-4c4e-95c8-e4ba6983a35f" Name="Group" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="b70e73f1-d284-47e0-a331-75b43a099136" ActivityName="Activity 1" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="38cc0b85-7fb3-4273-8025-11e526b7a1bd" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+</ActivitiesGroups>
+
+<TargetApplications>
+<TargetApplication AppName="MyWebApp" Guid="ea4e1e43-b3d7-4e6d-ae0b-3ad4cfb43710" ParentGuid="90ae6717-09b1-4baf-9395-1ce8d17738e0" />
+<TargetApplication AppName="MyWebServicesApp" Guid="7b61aaed-9ca0-4dee-a601-44856e497e27" ParentGuid="10fc0508-6833-4ea2-81fe-1eda91a00c84" />
+</TargetApplications>
+</BusinessFlow></GingerRepositoryItem>
