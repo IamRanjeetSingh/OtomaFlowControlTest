@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="9c1c57f2-411d-43cb-b0b1-9d34df175acc" ItemType="Activity" CreatedBy="meni" Created="202312261614" GingerVersion="23.5.0.0" Version="3" LastUpdateBy="meni" LastUpdate="202312261614" />
+<GingerRepositoryItem><Header ItemGuid="9c1c57f2-411d-43cb-b0b1-9d34df175acc" ItemType="Activity" CreatedBy="meni" Created="202312261616" GingerVersion="23.5.0.0" Version="3" LastUpdateBy="meni" LastUpdate="202312261616" />
 <Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group_HCFlow10" ActivityName="HCFlow10_Activity 1" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="9c1c57f2-411d-43cb-b0b1-9d34df175acc" ParentGuid="9c1c57f2-411d-43cb-b0b1-9d34df175acc" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="MyWebApp" Type="Regular">
 <Acts>
-<ActDummy Active="True" Description="Dummy Action" Guid="8dd57054-0f8c-4b0c-957e-e2d57ae2b87d" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<ActDummy Active="True" Description="Dummy Action" Guid="d1a66efd-6a8c-4d09-99af-ac4157d1f7f4" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
 <InputValues>
-<ActInputValue Guid="71bf4b10-85cf-4f67-a1e3-7b5a8963f552" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="e3f74c65-6240-4b9c-a6dc-1e580a3067af" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </InputValues>
 </ActDummy>
-<ActDummy Active="True" Description="Dummy Action_Copy" Guid="047ddf90-53f9-4fd9-a1ca-c2241daabc8b" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WaitVE="30" WindowsToCapture="OnlyActiveWindow">
+<ActDummy Active="True" Description="Dummy Action_Copy" Guid="75a36998-b752-4add-ad72-278b4283e79b" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WaitVE="45" WindowsToCapture="OnlyActiveWindow">
 <InputValues>
-<ActInputValue Guid="45f78c22-2086-478d-8078-bd4278f92624" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="4617b193-4274-4173-b05a-9beb4a134cec" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </InputValues>
 </ActDummy>
 </Acts>
