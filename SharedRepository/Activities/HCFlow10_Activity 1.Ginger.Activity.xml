@@ -1,7 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="9c1c57f2-411d-43cb-b0b1-9d34df175acc" ItemType="Activity" CreatedBy="meni" Created="202312261204" GingerVersion="23.5.0.0" Version="1" LastUpdateBy="meni" LastUpdate="202312261204" />
-<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="HCFlow10_Activity 1" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="9c1c57f2-411d-43cb-b0b1-9d34df175acc" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="MyWebApp" Type="Regular">
+<GingerRepositoryItem><Header ItemGuid="9c1c57f2-411d-43cb-b0b1-9d34df175acc" ItemType="Activity" CreatedBy="meni" Created="202312261614" GingerVersion="23.5.0.0" Version="3" LastUpdateBy="meni" LastUpdate="202312261614" />
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group_HCFlow10" ActivityName="HCFlow10_Activity 1" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="9c1c57f2-411d-43cb-b0b1-9d34df175acc" ParentGuid="9c1c57f2-411d-43cb-b0b1-9d34df175acc" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="MyWebApp" Type="Regular">
 <Acts>
-<ActDummy Active="True" Description="Dummy Action" Guid="43ab8356-b781-4c31-8b3d-cab5c4a3c8e2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow" />
+<ActDummy Active="True" Description="Dummy Action" Guid="8dd57054-0f8c-4b0c-957e-e2d57ae2b87d" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="71bf4b10-85cf-4f67-a1e3-7b5a8963f552" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+</ActDummy>
+<ActDummy Active="True" Description="Dummy Action_Copy" Guid="047ddf90-53f9-4fd9-a1ca-c2241daabc8b" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WaitVE="30" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="45f78c22-2086-478d-8078-bd4278f92624" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+</ActDummy>
 </Acts>
 </Activity></GingerRepositoryItem>
