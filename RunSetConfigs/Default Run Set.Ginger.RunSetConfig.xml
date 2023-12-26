@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="9696856d-8edf-459b-8c40-a9390a0f0179" ItemType="RunSetConfig" CreatedBy="harsisin" Created="202312041426" GingerVersion="23.5.0.0" Version="6" LastUpdateBy="meni" LastUpdate="202312261614" />
+<GingerRepositoryItem><Header ItemGuid="9696856d-8edf-459b-8c40-a9390a0f0179" ItemType="RunSetConfig" CreatedBy="harsisin" Created="202312041426" GingerVersion="23.5.0.0" Version="7" LastUpdateBy="meni" LastUpdate="202312261622" />
 <RunSetConfig Guid="9696856d-8edf-459b-8c40-a9390a0f0179" Name="Default Run Set" ParentGuid="00000000-0000-0000-0000-000000000000" SealightsTestRecommendations="No">
 <CategoriesDefinitions>
 <SolutionCategoryDefinition Category="Product" Guid="7e3501d9-6edd-4a8d-9dee-eb7689737155" ParentGuid="00000000-0000-0000-0000-000000000000" SelectedValueID="00000000-0000-0000-0000-000000000000" />
@@ -16,7 +16,7 @@
 <GingerRunners>
 <GingerRunner Guid="72d870ac-4c20-4854-a9c7-fd93ea3215cb" Name="Runner 1" ParentGuid="00000000-0000-0000-0000-000000000000" RunOption="ContinueToRunall">
 <ApplicationAgents>
-<ApplicationAgent AgentID="5269ec2c-ae77-4d3d-b18b-ab5f9f4a0c65" AgentName="MyWebApp - Agent 1" AppID="90ae6717-09b1-4baf-9395-1ce8d17738e0" AppName="MyWebApp" Guid="494c33c5-2c3d-4340-962b-367ffb361019" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ApplicationAgent AgentID="5269ec2c-ae77-4d3d-b18b-ab5f9f4a0c65" AgentName="Chrome" AppID="90ae6717-09b1-4baf-9395-1ce8d17738e0" AppName="MyWebApp" Guid="494c33c5-2c3d-4340-962b-367ffb361019" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ApplicationAgents>
 
 <BusinessFlowsRunList>
