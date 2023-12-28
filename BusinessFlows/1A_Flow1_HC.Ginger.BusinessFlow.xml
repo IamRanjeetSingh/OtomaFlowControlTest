@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="fc1fa88e-daaa-44b8-b6d5-d7b11b8d284b" ItemType="BusinessFlow" CreatedBy="meni" Created="202312281633" GingerVersion="23.5.0.0" Version="7" LastUpdateBy="meni" LastUpdate="202312281640" />
+<BusinessFlow Guid="fc1fa88e-daaa-44b8-b6d5-d7b11b8d284b" Name="1A_Flow1_HC" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
+<Activities>
+<Activity Active="True" ActivitiesGroupID="1A_Flow1_HC_Group" ActivityName="1A_Flow1_HC_POM Activity - Swag Labs 1" Guid="76e8a896-b5e9-4869-b46b-14907e468c51" ParentGuid="76e8a896-b5e9-4869-b46b-14907e468c51" Type="Link" />
+<Activity Active="True" ActivitiesGroupID="1A_Flow1_HC_Group" ActivityName="1A_Flow1_HC_Activity_Pass" Guid="ffe5ab53-ea64-4ca7-9855-6e30dd77c292" ParentGuid="ffe5ab53-ea64-4ca7-9855-6e30dd77c292" Type="Link" />
+<Activity Active="True" ActivitiesGroupID="1A_Flow1_HC_Group" ActivityName="1A_Flow1_HC_Activity_Fail" Guid="bae8b4bf-435e-44fc-9018-08d78f5842de" ParentGuid="bae8b4bf-435e-44fc-9018-08d78f5842de" Type="Link" />
+</Activities>
+
+<ActivitiesGroups>
+<ActivitiesGroup Guid="f84741be-9d94-46a4-bda8-1a0533b4cd38" Name="1A_Flow1_HC_Group" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="76e8a896-b5e9-4869-b46b-14907e468c51" ActivityName="1A_Flow1_HC_POM Activity - Swag Labs 1" ActivityParentGuid="af0cee23-6dac-4d3f-b03c-402bc7e3347d" Guid="cdc438e5-a67d-4f2a-9bfe-e8141e7b7572" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="ffe5ab53-ea64-4ca7-9855-6e30dd77c292" ActivityName="1A_Flow1_HC_Activity_Pass" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="5900e5fd-af89-44cf-82ec-f2c321317bbc" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="bae8b4bf-435e-44fc-9018-08d78f5842de" ActivityName="1A_Flow1_HC_Activity_Fail" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="505e8644-5eb2-447c-b1b0-9eeb1ccf6f17" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+</ActivitiesGroups>
+
+<TargetApplications>
+<TargetApplication AppName="MyWebApp" Guid="c57195a8-d08c-48ba-8980-39b8c25d7bdc" ParentGuid="90ae6717-09b1-4baf-9395-1ce8d17738e0" />
+</TargetApplications>
+</BusinessFlow></GingerRepositoryItem>

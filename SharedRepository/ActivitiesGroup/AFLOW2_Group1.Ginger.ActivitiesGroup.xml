@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="161c3408-9d4e-49f7-a125-0afb7dd553c9" ItemType="ActivitiesGroup" CreatedBy="meni" Created="202312281630" GingerVersion="23.5.0.0" Version="1" LastUpdateBy="meni" LastUpdate="202312281630" />
+<ActivitiesGroup Guid="161c3408-9d4e-49f7-a125-0afb7dd553c9" Name="AFLOW2_Group1" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="c3cfb909-b58d-4a7a-812a-be48c7e9fe93" ActivityName="POM Activity - Swag Labs 1" ActivityParentGuid="415aab32-00b2-468a-8aff-e29f08088e43" Guid="9b9f6ef1-1521-4c30-adac-dd7d713dcdf7" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="78654ba4-c5d2-4fb6-b52f-840c505600f5" ActivityName="AFLOW2_Group1_Activity 1_Pass" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="891530f1-92b2-49e4-af9d-3b47ee502492" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="75fc09a2-bc36-40ef-95a2-fc08a9aef89d" ActivityName="AFLOW2_Group1_Activity 2_Fail" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="fcc7f053-0d25-4d1a-8068-8debdccd6280" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup></GingerRepositoryItem>
