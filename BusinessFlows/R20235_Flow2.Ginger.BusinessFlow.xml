@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="f1b800c9-c4e3-4143-be8d-94da18ccab92" ItemType="BusinessFlow" CreatedBy="meni" Created="202312281048" GingerVersion="23.5.0.0" Version="11" LastUpdateBy="meni" LastUpdate="202312281108" />
+<GingerRepositoryItem><Header ItemGuid="f1b800c9-c4e3-4143-be8d-94da18ccab92" ItemType="BusinessFlow" CreatedBy="meni" Created="202312281048" GingerVersion="23.5.0.0" Version="19" LastUpdateBy="meni" LastUpdate="202312281116" />
 <BusinessFlow Guid="f1b800c9-c4e3-4143-be8d-94da18ccab92" Name="R2023.5_Flow2" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
 <Activities>
 <Activity Active="True" ActivitiesGroupID="R2023.5_Flow2_Group1" ActivityName="R2023.5_Flow2_Group1_Activity 1" Guid="acf3b0d0-5853-4b9a-88fc-9838b419d51f" ParentGuid="acf3b0d0-5853-4b9a-88fc-9838b419d51f" Type="Link" />
@@ -8,6 +8,7 @@
 <Activity Active="True" ActivitiesGroupID="R2023.5_Flow2_Group2" ActivityName="R2023.5_Flow2_Group2_Activity 1" Guid="82da81f1-5160-413e-b6e7-7b5798fe4fea" ParentGuid="82da81f1-5160-413e-b6e7-7b5798fe4fea" Type="Link" />
 <Activity Active="True" ActivitiesGroupID="R2023.5_Flow2_Group2" ActivityName="R2023.5_Flow2_Group2_Activity 2" Guid="b6f63ff0-a153-4f97-9f8c-a4b487242e73" ParentGuid="b6f63ff0-a153-4f97-9f8c-a4b487242e73" Type="Link" />
 <Activity Active="True" ActivitiesGroupID="R2023.5_Flow2_Group2" ActivityName="R2023.5_Flow2_Group2_Activity 3" Guid="2a187a8a-9d6c-491e-ac33-3de40dff34ae" ParentGuid="2a187a8a-9d6c-491e-ac33-3de40dff34ae" Type="Link" />
+<Activity ActivitiesGroupID="R2023.5_Flow2_Group3_TBSKIP" ActivityName="R2023.5_Flow2_Group3_Activity TBSKIP" Guid="587f4e2e-c502-4158-b04f-13f6d82c1548" LinkedActive="False" ParentGuid="587f4e2e-c502-4158-b04f-13f6d82c1548" Type="Link" />
 </Activities>
 
 <ActivitiesGroups>
@@ -21,8 +22,13 @@
 <ActivitiesGroup Guid="3f038223-899a-48ad-a287-8e511f31116c" Name="R2023.5_Flow2_Group2" ParentGuid="00000000-0000-0000-0000-000000000000">
 <ActivitiesIdentifiers>
 <ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="82da81f1-5160-413e-b6e7-7b5798fe4fea" ActivityName="R2023.5_Flow2_Group2_Activity 1" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="b950a53d-2b67-4073-ba2c-35b9b44cdd9a" ParentGuid="00000000-0000-0000-0000-000000000000" />
-<ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="b6f63ff0-a153-4f97-9f8c-a4b487242e73" ActivityName="R2023.5_Flow2_Group2_Activity 2" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="2df1be95-ad46-4171-867f-42b5d4043e78" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="b6f63ff0-a153-4f97-9f8c-a4b487242e73" ActivityName="R2023.5_Flow2_Group2_Activity 2" ActivityParentGuid="b6f63ff0-a153-4f97-9f8c-a4b487242e73" Guid="2df1be95-ad46-4171-867f-42b5d4043e78" ParentGuid="00000000-0000-0000-0000-000000000000" />
 <ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="2a187a8a-9d6c-491e-ac33-3de40dff34ae" ActivityName="R2023.5_Flow2_Group2_Activity 3" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="d9417000-9ef0-42cb-905d-f648ee208adc" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+<ActivitiesGroup Guid="5afc99fa-9736-4fef-af4c-88ecffdec4a6" Name="R2023.5_Flow2_Group3_TBSKIP" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="587f4e2e-c502-4158-b04f-13f6d82c1548" ActivityName="R2023.5_Flow2_Group3_Activity TBSKIP" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="bb676178-5aec-4ccb-b71b-6d367bcd6c56" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 </ActivitiesGroups>

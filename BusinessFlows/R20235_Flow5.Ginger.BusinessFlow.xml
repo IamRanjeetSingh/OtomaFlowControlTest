@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="3d5e565a-4710-4b5b-9eb3-5f35acaabc83" ItemType="BusinessFlow" CreatedBy="meni" Created="202312281145" GingerVersion="23.5.0.0" Version="8" LastUpdateBy="meni" LastUpdate="202312281150" />
+<BusinessFlow Guid="3d5e565a-4710-4b5b-9eb3-5f35acaabc83" Name="R2023.5_Flow5" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
+<Activities>
+<Activity Active="True" ActivitiesGroupID="R2023.5_Flow5_Group1" ActivityName="R2023.5_Flow5_Group1_Activity" Guid="62d4a514-37af-4ea4-b422-198d91caedde" ParentGuid="62d4a514-37af-4ea4-b422-198d91caedde" Type="Link" />
+<Activity ActivitiesGroupID="R2023.5_Flow5_Group2" ActivityName="R2023.5_Flow5_Group2_Activity" Guid="29ea998f-bb6a-4ef4-a940-0d51407d0130" LinkedActive="False" ParentGuid="29ea998f-bb6a-4ef4-a940-0d51407d0130" Type="Link" />
+</Activities>
+
+<ActivitiesGroups>
+<ActivitiesGroup Guid="6fab3de7-3655-4f4b-aba0-d97e1e039fa4" Name="R2023.5_Flow5_Group1" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="62d4a514-37af-4ea4-b422-198d91caedde" ActivityName="R2023.5_Flow5_Group1_Activity" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="697d3e31-1558-4724-817c-394063ffe1ed" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+<ActivitiesGroup Guid="311e0792-56a3-4f87-a16b-f0f1c5c26864" Name="R2023.5_Flow5_Group2" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="29ea998f-bb6a-4ef4-a940-0d51407d0130" ActivityName="R2023.5_Flow5_Group2_Activity" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="41f1c45a-8880-4fc1-9dae-5f6a114aebef" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="93d84eed-94a8-46bc-aff1-0357ec4afed3" ActivityName="R2023.5_Flow5_Group2_Activity2" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="d1900932-5fd3-4ae8-b8d6-77af060fb922" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+</ActivitiesGroups>
+
+<TargetApplications>
+<TargetApplication AppName="MyWebApp" Guid="c9bf0414-f1fe-481a-b8b1-887857e431de" ParentGuid="90ae6717-09b1-4baf-9395-1ce8d17738e0" />
+</TargetApplications>
+</BusinessFlow></GingerRepositoryItem>

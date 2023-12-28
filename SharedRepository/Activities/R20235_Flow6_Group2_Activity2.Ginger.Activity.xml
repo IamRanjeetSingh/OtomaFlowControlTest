@@ -1,0 +1,3 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="6cd4fb80-0f7a-47f1-acca-5596ec42b379" ItemType="Activity" CreatedBy="meni" Created="202312281153" GingerVersion="23.5.0.0" Version="1" LastUpdateBy="meni" LastUpdate="202312281153" />
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="R2023.5_Flow6_Group2_Activity2" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="6cd4fb80-0f7a-47f1-acca-5596ec42b379" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="0%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="MyWebApp" Type="Regular" /></GingerRepositoryItem>
