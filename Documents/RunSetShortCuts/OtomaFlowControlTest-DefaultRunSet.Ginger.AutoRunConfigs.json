@@ -28,6 +28,7 @@
     "Exist": false,
     "Name": "Test suite 375 - Harsim_-8",
     "EnvironmentName": "Default",
+ "AllowInterActivityFlowControls":true,
     "Runners": [
       {
         "Name": "Runner 1",

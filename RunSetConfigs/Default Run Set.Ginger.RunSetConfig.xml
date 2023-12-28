@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="9696856d-8edf-459b-8c40-a9390a0f0179" ItemType="RunSetConfig" CreatedBy="harsisin" Created="202312041426" GingerVersion="23.5.0.0" Version="7" LastUpdateBy="meni" LastUpdate="202312261622" />
+<GingerRepositoryItem><Header ItemGuid="9696856d-8edf-459b-8c40-a9390a0f0179" ItemType="RunSetConfig" CreatedBy="meni" Created="202312261643" GingerVersion="23.5.0.0" Version="1" LastUpdateBy="meni" LastUpdate="202312261643" />
 <RunSetConfig Guid="9696856d-8edf-459b-8c40-a9390a0f0179" Name="Default Run Set" ParentGuid="00000000-0000-0000-0000-000000000000" SealightsTestRecommendations="No">
 <CategoriesDefinitions>
 <SolutionCategoryDefinition Category="Product" Guid="7e3501d9-6edd-4a8d-9dee-eb7689737155" ParentGuid="00000000-0000-0000-0000-000000000000" SelectedValueID="00000000-0000-0000-0000-000000000000" />
