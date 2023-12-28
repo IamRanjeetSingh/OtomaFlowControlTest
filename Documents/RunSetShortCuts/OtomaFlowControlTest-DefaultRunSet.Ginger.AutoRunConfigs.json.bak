@@ -8,7 +8,7 @@
     "Name": "Test suite 377 - Harsim_-9",
     "EnvironmentName": "Default",
 	"RunAnalyzer": false,
-    "AllowInterActivityFlowControls":true,
+    "AllowInterActivityFlowControls":false,
     "Runners": [
       {
         "Name": "Runner 1",
