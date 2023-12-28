@@ -11,8 +11,13 @@
     "AllowInterActivityFlowControls":true,
     "Runners": [
       {
+        "Exist": true,
         "Name": "Runner 1",
-        "OnFailureRunOption": "StopAllBusinessFlows",
+        "ID": "72d870ac-4c20-4854-a9c7-fd93ea3215cb",
+        "Active": true,
+        "OnFailureRunOption": "ContinueToRunall",
+        "RunInSimulationMode": false,
+        "RunInVisualTestingMode": true,
         "AppAgentMappings": [
           {
             "ApplicationName": "MyWebApp",
@@ -21,27 +26,40 @@
             "AgentID": "5269ec2c-ae77-4d3d-b18b-ab5f9f4a0c65"
           }
         ],
+        "KeepAgentsOpen": false,
         "BusinessFlows": [
           {
+            "Exist": true,
+            "Name": "R2023.5_Flow2_Copy",
+            "ID": "6775f4ef-070b-43a2-b92f-e48c1e0db1bd",
+            "InstanceID": "2adfeb8a-85ce-4c4f-acf7-85be54ac9141",
+            "Active": true
+          }
+        ]
+      }
+    ],
+            "InputValues": []
+          },
+          {
             "Exist": false,
-            "Name": "R2023.5_Flow1_Activity 1",
-            "InstanceID": "1abdafd1-40f8-4452-8f49-4263b39c5d48",
+            "Name": "R2023.5_Flow2_Group2_Activity 2",
+            "InstanceID": "e4948ca7-9ccc-4cfb-911e-8f1bd7bc82ef",
             "SharedActivities": [
               {
-                "SharedActivityName": "R2023.5_Flow1_Activity 1",
-                "SharedActivityID": "b7c13a18-edfd-41f2-876a-5d4df01968f6"
+                "SharedActivityName": "R2023.5_Flow2_Group2_Activity 2",
+                "SharedActivityID": "b6f63ff0-a153-4f97-9f8c-a4b487242e73"
               }
             ],
             "InputValues": []
           },
           {
             "Exist": false,
-            "Name": "R2023.5_Flow1_Activity 2",
-            "InstanceID": "d576e416-7909-44fe-94de-c59347aaa293",
+            "Name": "R2023.5_Flow2_Group2_Activity 3",
+            "InstanceID": "17c28de4-c5c2-4499-b5a9-4184c274e8cc",
             "SharedActivities": [
               {
-                "SharedActivityName": "R2023.5_Flow1_Activity 2",
-                "SharedActivityID": "16b9dce8-0534-46c4-ac5a-950774dd9890"
+                "SharedActivityName": "R2023.5_Flow2_Group2_Activity 3",
+                "SharedActivityID": "2a187a8a-9d6c-491e-ac33-3de40dff34ae"
               }
             ],
             "InputValues": []

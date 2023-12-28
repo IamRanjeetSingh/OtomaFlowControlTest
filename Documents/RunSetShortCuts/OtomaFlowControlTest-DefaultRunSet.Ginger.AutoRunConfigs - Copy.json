@@ -24,36 +24,24 @@
         "BusinessFlows": [
           {
             "Exist": false,
-            "Name": "R2023.5_Flow2_Group2_Activity 1",
-            "InstanceID": "c4ec1dc9-4de3-4101-80ab-ba56b123932a",
+            "Name": "R2023.5_Flow1_Activity 1",
+            "InstanceID": "1abdafd1-40f8-4452-8f49-4263b39c5d48",
             "SharedActivities": [
               {
-                "SharedActivityName": "R2023.5_Flow2_Group2_Activity 1",
-                "SharedActivityID": "82da81f1-5160-413e-b6e7-7b5798fe4fea"
+                "SharedActivityName": "R2023.5_Flow1_Activity 1",
+                "SharedActivityID": "b7c13a18-edfd-41f2-876a-5d4df01968f6"
               }
             ],
             "InputValues": []
           },
           {
             "Exist": false,
-            "Name": "R2023.5_Flow2_Group2_Activity 2",
-            "InstanceID": "e4948ca7-9ccc-4cfb-911e-8f1bd7bc82ef",
+            "Name": "R2023.5_Flow1_Activity 2",
+            "InstanceID": "d576e416-7909-44fe-94de-c59347aaa293",
             "SharedActivities": [
               {
-                "SharedActivityName": "R2023.5_Flow2_Group2_Activity 2",
-                "SharedActivityID": "b6f63ff0-a153-4f97-9f8c-a4b487242e73"
-              }
-            ],
-            "InputValues": []
-          },
-          {
-            "Exist": false,
-            "Name": "R2023.5_Flow2_Group2_Activity 3",
-            "InstanceID": "17c28de4-c5c2-4499-b5a9-4184c274e8cc",
-            "SharedActivities": [
-              {
-                "SharedActivityName": "R2023.5_Flow2_Group2_Activity 3",
-                "SharedActivityID": "2a187a8a-9d6c-491e-ac33-3de40dff34ae"
+                "SharedActivityName": "R2023.5_Flow1_Activity 2",
+                "SharedActivityID": "16b9dce8-0534-46c4-ac5a-950774dd9890"
               }
             ],
             "InputValues": []
