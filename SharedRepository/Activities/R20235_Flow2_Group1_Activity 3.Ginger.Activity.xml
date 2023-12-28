@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="774ec536-b6ad-4ef2-b194-524665895f6d" ItemType="Activity" CreatedBy="meni" Created="202312281107" GingerVersion="23.5.0.0" Version="1" LastUpdateBy="meni" LastUpdate="202312281107" />
+<GingerRepositoryItem><Header ItemGuid="774ec536-b6ad-4ef2-b194-524665895f6d" ItemType="Activity" CreatedBy="meni" Created="202312281259" GingerVersion="23.5.0.0" Version="1" LastUpdateBy="meni" LastUpdate="202312281259" />
 <Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="R2023.5_Flow2_Group1_Activity 3" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="774ec536-b6ad-4ef2-b194-524665895f6d" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="MyWebApp" Type="Regular">
 <Acts>
-<ActDummy Active="True" Description="Dummy Action" Guid="b664721f-8d64-418c-9c22-28055d28b93d" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow" />
+<ActDummy Active="True" Description="Dummy Action" Guid="2f192911-5aba-4d76-b719-2ec0271c9828" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow" />
 </Acts>
 </Activity></GingerRepositoryItem>

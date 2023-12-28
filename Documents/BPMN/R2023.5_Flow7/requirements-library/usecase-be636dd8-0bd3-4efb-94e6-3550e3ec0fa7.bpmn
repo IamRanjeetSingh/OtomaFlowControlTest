@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:camunda="http://camunda.org/schema/1.0/bpmn" xmlns:ig="http://insightguard.com/schema/1.0/bpmn" targetNamespace="http://bpmn.io/schema/bpmn">
+  <bpmn:collaboration id="Collaboration_be636dd8-0bd3-4efb-94e6-3550e3ec0fa7" isClosed="false" name="R2023.5_Flow7">
+    <documentation id="doc_Collaboration_be636dd8-0bd3-4efb-94e6-3550e3ec0fa7" textFormat="text/plain" xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" />
+    <bpmn:extensionElements xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL">
+      <ig:bpmnMetadata>
+        <ig:uuid>be636dd8-0bd3-4efb-94e6-3550e3ec0fa7</ig:uuid>
+        <ig:bpmnName>R2023.5_Flow7</ig:bpmnName>
+        <ig:description></ig:description>
+        <ig:systemRef>90ae6717-09b1-4baf-9395-1ce8d17738e0</ig:systemRef>
+        <ig:domainRef>32</ig:domainRef>
+        <ig:collaborationType>USECASE</ig:collaborationType>
+      </ig:bpmnMetadata>
+    </bpmn:extensionElements>
+    <bpmn:participant id="participant_90ae6717-09b1-4baf-9395-1ce8d17738e0" ig:systemRef="90ae6717-09b1-4baf-9395-1ce8d17738e0" name="MyWebApp" processRef="participant_90ae6717-09b1-4baf-9395-1ce8d17738e0_process">
+      <bpmn:documentation textFormat="text/plain" />
+    </bpmn:participant>
+  </bpmn:collaboration>
+  <bpmn:process id="participant_90ae6717-09b1-4baf-9395-1ce8d17738e0_process" isClosed="false" processType="None">
+    <bpmn:callActivity completionQuantity="1" id="callActivity_d68797cb-919f-42c6-aa22-d9745d71aebc" ig:processRef="919992be-d049-4fbd-bc56-ea59975fd643" isForCompensation="false" name="R2023.5_Flow7_Group1" startQuantity="1">
+      <bpmn:documentation textFormat="text/plain" />
+      <bpmn:incoming>flow_6fe40085-dcf0-4bca-bb42-08461b582f59</bpmn:incoming>
+      <bpmn:outgoing>flow_98930f2d-b133-43de-b2c5-366a8de73cd9</bpmn:outgoing>
+    </bpmn:callActivity>
+    <bpmn:callActivity completionQuantity="1" id="callActivity_c8fbb590-28ed-42bd-893e-13aa42ac40d4" ig:processRef="df616cc4-9fec-4263-b3cc-d58441e75d1d" isForCompensation="false" name="R2023.5_Flow7_Group2" startQuantity="1">
+      <bpmn:documentation textFormat="text/plain" />
+      <bpmn:incoming>flow_98930f2d-b133-43de-b2c5-366a8de73cd9</bpmn:incoming>
+      <bpmn:outgoing>flow_9ab3e793-3da1-4d87-b211-f75d74686b15</bpmn:outgoing>
+    </bpmn:callActivity>
+    <bpmn:startEvent id="event_a7a2e131-0e68-4d5f-a472-2d520fbb50ad" isInterrupting="true" name="" parallelMultiple="false">
+      <bpmn:documentation textFormat="text/plain" />
+      <bpmn:outgoing>flow_6fe40085-dcf0-4bca-bb42-08461b582f59</bpmn:outgoing>
+    </bpmn:startEvent>
+    <bpmn:endEvent id="event_65e9083e-f802-4893-aa84-8870be3ddfa5" name="">
+      <bpmn:documentation textFormat="text/plain" />
+      <bpmn:incoming>flow_9ab3e793-3da1-4d87-b211-f75d74686b15</bpmn:incoming>
+      <bpmn:terminateEventDefinition />
+    </bpmn:endEvent>
+    <bpmn:sequenceFlow id="flow_6fe40085-dcf0-4bca-bb42-08461b582f59" name="" sourceRef="event_a7a2e131-0e68-4d5f-a472-2d520fbb50ad" targetRef="callActivity_d68797cb-919f-42c6-aa22-d9745d71aebc">
+      <bpmn:documentation textFormat="text/plain" />
+    </bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="flow_98930f2d-b133-43de-b2c5-366a8de73cd9" name="" sourceRef="callActivity_d68797cb-919f-42c6-aa22-d9745d71aebc" targetRef="callActivity_c8fbb590-28ed-42bd-893e-13aa42ac40d4">
+      <bpmn:documentation textFormat="text/plain" />
+    </bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="flow_9ab3e793-3da1-4d87-b211-f75d74686b15" name="" sourceRef="callActivity_c8fbb590-28ed-42bd-893e-13aa42ac40d4" targetRef="event_65e9083e-f802-4893-aa84-8870be3ddfa5">
+      <bpmn:documentation textFormat="text/plain" />
+    </bpmn:sequenceFlow>
+  </bpmn:process>
+</bpmn:definitions>

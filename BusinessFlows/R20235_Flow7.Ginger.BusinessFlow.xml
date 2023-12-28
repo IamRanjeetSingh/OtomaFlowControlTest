@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="be636dd8-0bd3-4efb-94e6-3550e3ec0fa7" ItemType="BusinessFlow" CreatedBy="meni" Created="202312281204" GingerVersion="23.5.0.0" Version="10" LastUpdateBy="meni" LastUpdate="202312281214" />
+<BusinessFlow Guid="be636dd8-0bd3-4efb-94e6-3550e3ec0fa7" Name="R2023.5_Flow7" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
+<Activities>
+<Activity Active="True" ActivitiesGroupID="R2023.5_Flow7_Group1" ActivityName="R2023.5_Flow7_Group1_Activity 1" Guid="84408469-24af-4789-a0d1-eb1b8bdfd41d" ParentGuid="84408469-24af-4789-a0d1-eb1b8bdfd41d" Type="Link" />
+<Activity Active="True" ActivitiesGroupID="R2023.5_Flow7_Group2" ActivityName="R2023.5_Flow7_Group2_Activity 1" Guid="1b83f44b-457c-432d-869b-4f25bd5a8f1a" ParentGuid="1b83f44b-457c-432d-869b-4f25bd5a8f1a" Type="Link" />
+<Activity Active="True" ActivitiesGroupID="R2023.5_Flow7_Group2" ActivityName="R2023.5_Flow7_Group2_Activity 2" Guid="a267e51a-643f-445b-b29f-0dbeebf9bb79" ParentGuid="a267e51a-643f-445b-b29f-0dbeebf9bb79" Type="Link" />
+</Activities>
+
+<ActivitiesGroups>
+<ActivitiesGroup Guid="919992be-d049-4fbd-bc56-ea59975fd643" Name="R2023.5_Flow7_Group1" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="84408469-24af-4789-a0d1-eb1b8bdfd41d" ActivityName="R2023.5_Flow7_Group1_Activity 1" ActivityParentGuid="84408469-24af-4789-a0d1-eb1b8bdfd41d" Guid="c5a57507-3d8d-4e99-8edb-e4e0d3b31627" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+<ActivitiesGroup Guid="df616cc4-9fec-4263-b3cc-d58441e75d1d" Name="R2023.5_Flow7_Group2" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="1b83f44b-457c-432d-869b-4f25bd5a8f1a" ActivityName="R2023.5_Flow7_Group2_Activity 1" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="bc210184-3f7b-48d4-ae4d-586fe3ff5cf0" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="a267e51a-643f-445b-b29f-0dbeebf9bb79" ActivityName="R2023.5_Flow7_Group2_Activity 2" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="f8aa26a5-353e-479f-9fff-baa1f21dda31" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+</ActivitiesGroups>
+
+<TargetApplications>
+<TargetApplication AppName="MyWebApp" Guid="de7b3536-7bf6-41d9-9c94-e4d274144ece" ParentGuid="90ae6717-09b1-4baf-9395-1ce8d17738e0" />
+</TargetApplications>
+</BusinessFlow></GingerRepositoryItem>

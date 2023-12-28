@@ -1,22 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="acf3b0d0-5853-4b9a-88fc-9838b419d51f" ItemType="Activity" CreatedBy="meni" Created="202312281107" GingerVersion="23.5.0.0" Version="1" LastUpdateBy="meni" LastUpdate="202312281107" />
+<GingerRepositoryItem><Header ItemGuid="acf3b0d0-5853-4b9a-88fc-9838b419d51f" ItemType="Activity" CreatedBy="meni" Created="202312281259" GingerVersion="23.5.0.0" Version="1" LastUpdateBy="meni" LastUpdate="202312281259" />
 <Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="R2023.5_Flow2_Group1_Activity 1" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="acf3b0d0-5853-4b9a-88fc-9838b419d51f" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="MyWebApp" Type="Regular">
 <Acts>
-<ActBrowserElement Active="True" Description="Browser Action" Guid="0aecc9e0-2eb0-4221-9c9a-dcfd384172f7" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<ActBrowserElement Active="True" Description="Browser Action" Guid="29e04ed2-8a43-4aa5-8d8b-bc6ab51a54cd" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
 <InputValues>
-<ActInputValue Guid="bc2ee7d8-dc23-4376-a2fd-e2fa20457aa9" Param="ControlAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="GotoURL" />
-<ActInputValue Guid="1b93c1cf-31d0-4651-a6a1-2f4e20558e96" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
-<ActInputValue Guid="1d13223d-e242-4e01-aabd-3853b644b85c" Param="LocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" />
-<ActInputValue Guid="ef0251f3-1331-44a8-9a77-2a3d20b4f6dc" Param="GotoURLType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Current" />
-<ActInputValue Guid="0f10c116-63cd-47e9-98e1-a5343e6c6f8d" Param="URLSrc" ParentGuid="00000000-0000-0000-0000-000000000000" Value="UrlPOM" />
-<ActInputValue Guid="d183beca-97e6-45a7-81d2-99b5ff89cfbf" Param="eMonitorUrl" ParentGuid="00000000-0000-0000-0000-000000000000" Value="AllUrl" />
-<ActInputValue Guid="6fe1bf15-c101-4253-89ae-c0eeda9fce63" Param="eRequestTypes" ParentGuid="00000000-0000-0000-0000-000000000000" Value="FetchOrXHR" />
-<ActInputValue Guid="a2275c12-1c2a-4dc0-9f84-dd4e8063fd20" Param="LocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="NA" />
-<ActInputValue Guid="b47b80d0-5d90-436e-bf36-a3c137d23021" Param="ImplicitWait" ParentGuid="00000000-0000-0000-0000-000000000000" />
-<ActInputValue Guid="e52ab253-3f00-4348-9c0e-77e228c1fbfe" Param="sBlockedUrls" ParentGuid="00000000-0000-0000-0000-000000000000" />
-<ActInputValue Guid="67a6d9ad-2890-4164-b2ce-6d4c3c7e92a9" Param="PomGUID" ParentGuid="00000000-0000-0000-0000-000000000000" Value="75c9ea22-73aa-4f15-b667-dc12dde87bbc" />
-<ActInputValue Guid="b77e8c7a-ba1d-4667-b40f-9f4b2fbb5699" Param="NetworkLog" ParentGuid="00000000-0000-0000-0000-000000000000" />
-<ActInputValue Guid="0293b714-e261-4d50-a82c-a1c2927fc773" Param="NetworkUrl" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="82146954-5262-4160-b73c-3a2e82efa51b" Param="ControlAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="GotoURL" />
+<ActInputValue Guid="2917c668-8fdb-4cf3-9d70-3b2497cc108a" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="ee58611d-b334-4daf-8835-6353abebd95d" Param="LocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="f3ef0cc3-cf51-42eb-9de1-3a0a0a01080d" Param="GotoURLType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Current" />
+<ActInputValue Guid="c8a36084-c247-4047-8adc-7935765987d1" Param="URLSrc" ParentGuid="00000000-0000-0000-0000-000000000000" Value="UrlPOM" />
+<ActInputValue Guid="712ee0a5-52e7-4221-bfbc-2eeed18e1336" Param="eMonitorUrl" ParentGuid="00000000-0000-0000-0000-000000000000" Value="AllUrl" />
+<ActInputValue Guid="2266615c-b451-4ff5-8504-8e48cfec1bff" Param="eRequestTypes" ParentGuid="00000000-0000-0000-0000-000000000000" Value="FetchOrXHR" />
+<ActInputValue Guid="25a9f6d8-cebe-4664-abb0-cf2d52e7b3b1" Param="LocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="NA" />
+<ActInputValue Guid="2621beda-d113-4615-9cc9-3224e75a4719" Param="ImplicitWait" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="e000b7f8-9e5c-476c-b283-c76c8178eb57" Param="sBlockedUrls" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="38796919-591a-4cc1-92cc-9e9fbe8f6980" Param="PomGUID" ParentGuid="00000000-0000-0000-0000-000000000000" Value="75c9ea22-73aa-4f15-b667-dc12dde87bbc" />
+<ActInputValue Guid="e5e44582-ab47-4a4e-b0fa-5b2b00358ab7" Param="NetworkLog" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="ed130235-18cd-4182-9a37-76812f2f03dc" Param="NetworkUrl" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </InputValues>
 </ActBrowserElement>
 </Acts>

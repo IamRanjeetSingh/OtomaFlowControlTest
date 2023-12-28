@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="bbd1c1dd-f4e6-4d05-ae04-bd2a69bba60b" ItemType="ActivitiesGroup" CreatedBy="meni" Created="202312281259" GingerVersion="23.5.0.0" Version="1" LastUpdateBy="meni" LastUpdate="202312281259" />
+<ActivitiesGroup Guid="bbd1c1dd-f4e6-4d05-ae04-bd2a69bba60b" Name="AGG_Group_Flow3" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="e8301b58-19ae-4ff1-a17d-e60ea967fd00" ActivityName="R2023.5_Flow2_Group1_Activity 1" ActivityParentGuid="acf3b0d0-5853-4b9a-88fc-9838b419d51f" Guid="c48ca450-06be-4bcf-a098-cc53b6490e52" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="1c7118c6-9399-40f8-8fb4-90a754462aa8" ActivityName="R2023.5_Flow2_Group1_Activity 2" ActivityParentGuid="38365f84-11ff-4f03-a4f5-ba14aae7ae4b" Guid="e5f1ae8e-bf36-4ae5-b92f-e2ea48428388" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="e04793a0-e66c-4aa8-8d16-0f7fbc8336df" ActivityName="R2023.5_Flow2_Group1_Activity 3" ActivityParentGuid="774ec536-b6ad-4ef2-b194-524665895f6d" Guid="8786478a-8344-4cd0-b559-d492982e553c" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="fb54b625-ef6e-44a5-9aaf-569218a133c6" ActivityName="R2023.5_Flow2_Group2_Activity 1" ActivityParentGuid="82da81f1-5160-413e-b6e7-7b5798fe4fea" Guid="cdb11425-94b5-41bb-b25f-e72747331ed3" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="9cfd07ff-2758-4442-83ac-48e899c06e30" ActivityName="R2023.5_Flow2_Group2_Activity 2" ActivityParentGuid="b6f63ff0-a153-4f97-9f8c-a4b487242e73" Guid="3e8fbd0c-999b-494a-bebc-f2ef4d1c2062" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="8d681a9c-2ab6-4d9d-a72d-7cbf5ca25ba9" ActivityName="R2023.5_Flow2_Group2_Activity 3" ActivityParentGuid="2a187a8a-9d6c-491e-ac33-3de40dff34ae" Guid="ace58d40-8939-479b-b944-3f13c2c67a69" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup></GingerRepositoryItem>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="5afc99fa-9736-4fef-af4c-88ecffdec4a6" ItemType="ActivitiesGroup" CreatedBy="meni" Created="202312281257" GingerVersion="23.5.0.0" Version="1" LastUpdateBy="meni" LastUpdate="202312281257" />
+<ActivitiesGroup Guid="5afc99fa-9736-4fef-af4c-88ecffdec4a6" Name="R2023.5_Flow2_Group3_TBSKIP" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="587f4e2e-c502-4158-b04f-13f6d82c1548" ActivityName="R2023.5_Flow2_Group3_Activity TBSKIP" ActivityParentGuid="587f4e2e-c502-4158-b04f-13f6d82c1548" Guid="bb676178-5aec-4ccb-b71b-6d367bcd6c56" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup></GingerRepositoryItem>

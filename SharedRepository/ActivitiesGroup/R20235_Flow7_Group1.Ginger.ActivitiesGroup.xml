@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="919992be-d049-4fbd-bc56-ea59975fd643" ItemType="ActivitiesGroup" CreatedBy="meni" Created="202312281206" GingerVersion="23.5.0.0" Version="1" LastUpdateBy="meni" LastUpdate="202312281206" />
+<ActivitiesGroup Guid="919992be-d049-4fbd-bc56-ea59975fd643" Name="R2023.5_Flow7_Group1" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="84408469-24af-4789-a0d1-eb1b8bdfd41d" ActivityName="R2023.5_Flow7_Group1_Activity 1" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="c5a57507-3d8d-4e99-8edb-e4e0d3b31627" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup></GingerRepositoryItem>
