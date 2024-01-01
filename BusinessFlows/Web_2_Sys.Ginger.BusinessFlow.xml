@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="841004c3-1891-4adb-b17a-b113c82b2b6b" ItemType="BusinessFlow" CreatedBy="meni" Created="202401010817" GingerVersion="23.5.0.0" Version="3" LastUpdateBy="meni" LastUpdate="202401010822" />
+<BusinessFlow Guid="841004c3-1891-4adb-b17a-b113c82b2b6b" Name="Web_2_Sys" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
+<Activities>
+<Activity Active="True" ActivitiesGroupID="Group" ActivityName="Google_Activity" Guid="6e929cee-9e34-4258-b475-c09dfe56b656" ParentGuid="6e929cee-9e34-4258-b475-c09dfe56b656" Type="Link" />
+<Activity Active="True" ActivitiesGroupID="Group" ActivityName="Saucedemo_Activity" Guid="a66ebe78-a764-4948-a412-29b7ed901fcd" ParentGuid="a66ebe78-a764-4948-a412-29b7ed901fcd" Type="Link" />
+</Activities>
+
+<ActivitiesGroups>
+<ActivitiesGroup Guid="6db0539d-ff67-45f0-bbd2-e4e8554a2543" Name="Group" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="6e929cee-9e34-4258-b475-c09dfe56b656" ActivityName="Google_Activity" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="30e436dc-f08b-411f-976b-595e78375771" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="a66ebe78-a764-4948-a412-29b7ed901fcd" ActivityName="Saucedemo_Activity" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="1fe39144-d166-470e-a35a-1b8684caf22f" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+</ActivitiesGroups>
+
+<TargetApplications>
+<TargetApplication AppName="MyWebApp" Guid="75de63ba-cd5b-4ac6-86f2-7827e17e739e" ParentGuid="90ae6717-09b1-4baf-9395-1ce8d17738e0" />
+<TargetApplication AppName="MyWebApp2" Guid="fedd9ee7-02a3-46b9-98e5-abd35b85cecb" ParentGuid="7b8e01ff-f285-40f1-8116-e0c72611e02a" />
+</TargetApplications>
+</BusinessFlow></GingerRepositoryItem>

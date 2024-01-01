@@ -5,9 +5,9 @@
   "VerboseLevel": "normal",
   "Runset": {
     "Exist": false,
-    "Name": "Test suite 377 - Harsim_-10",
+    "Name": "Test suite 382 - Harsim_-33",
     "EnvironmentName": "Default",
- "RunAnalyzer": false,
+	"RunAnalyzer": false,
     "AllowInterActivityFlowControls":true,
     "Runners": [
       {
@@ -24,18 +24,26 @@
         "BusinessFlows": [
           {
             "Exist": false,
-            "Name": "R2023.5_Flow1_Activity 1",
-            "InstanceID": "cd97ebff-ecf7-4e32-866a-613ca6f083ee",
+            "Name": "1A_Flow1_HC_POM Activity - Swag Labs 1",
+            "InstanceID": "0becb144-2475-4b1c-a670-cbc96e11e258",
             "SharedActivities": [
               {
-                "SharedActivityName": "R2023.5_Flow1_Activity 1",
-                "SharedActivityID": "b7c13a18-edfd-41f2-876a-5d4df01968f6"
-              },
-     {
-                "SharedActivityName": "R2023.5_Flow1_Activity 2",
-                "SharedActivityID": "16b9dce8-0534-46c4-ac5a-950774dd9890"
+                "SharedActivityName": "1A_Flow1_HC_POM Activity - Swag Labs 1",
+                "SharedActivityID": "76e8a896-b5e9-4869-b46b-14907e468c51"
               }
-   ],
+            ],
+            "InputValues": []
+          },
+          {
+            "Exist": false,
+            "Name": "1A_Flow1_HC_Activity_Fail",
+            "InstanceID": "534cff4c-fc94-43db-960d-1d7ad0acc510",
+            "SharedActivities": [
+              {
+                "SharedActivityName": "1A_Flow1_HC_Activity_Fail",
+                "SharedActivityID": "bae8b4bf-435e-44fc-9018-08d78f5842de"
+              }
+            ],
             "InputValues": []
           }
         ]

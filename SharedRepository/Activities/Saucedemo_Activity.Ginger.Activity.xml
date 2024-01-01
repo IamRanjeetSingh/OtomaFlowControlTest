@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="a66ebe78-a764-4948-a412-29b7ed901fcd" ItemType="Activity" CreatedBy="meni" Created="202401010821" GingerVersion="23.5.0.0" Version="1" LastUpdateBy="meni" LastUpdate="202401010821" />
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Saucedemo_Activity" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="a66ebe78-a764-4948-a412-29b7ed901fcd" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="MyWebApp2" Type="Regular">
+<Acts>
+<ActBrowserElement Active="True" Description="Browser Action" Guid="686a7220-72e0-4a86-859a-e89159c43418" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="acef8207-e4c3-4791-9eb3-53801cb04d12" Param="ControlAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="GotoURL" />
+<ActInputValue Guid="85791b00-dca9-4f56-86de-c46d3bb54691" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Value="www.saucedemo.com" />
+<ActInputValue Guid="5e34ae6a-55a9-4db9-bf6e-94d49a8f6fbd" Param="LocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="5bf1f20e-f890-478c-baa1-75cd2175d01c" Param="GotoURLType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Current" />
+<ActInputValue Guid="21fe00a7-eb70-4464-8419-e06dbe414b29" Param="URLSrc" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Static" />
+<ActInputValue Guid="d6e236e8-16bd-46ee-a751-fc33adb6eefd" Param="eMonitorUrl" ParentGuid="00000000-0000-0000-0000-000000000000" Value="AllUrl" />
+<ActInputValue Guid="b29b9101-b900-4112-964f-28339eaff7b1" Param="eRequestTypes" ParentGuid="00000000-0000-0000-0000-000000000000" Value="FetchOrXHR" />
+<ActInputValue Guid="ff081024-74a5-4442-b00a-fa7bfd11ba79" Param="LocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="NA" />
+<ActInputValue Guid="3d38eaff-b5f6-4f04-933d-875bf236ebcd" Param="ImplicitWait" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="927feec7-5c3f-4329-9ee5-52d9c7d2fdf3" Param="sBlockedUrls" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="c9e1b5c9-1b0d-40a0-a7db-0921002e7697" Param="NetworkLog" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="0d4c55ed-0b33-4dcf-ab5d-2c8d587d1478" Param="NetworkUrl" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="693f550c-f7f5-4707-8484-dc7d5e4d296f" Param="PomGUID" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+</ActBrowserElement>
+</Acts>
+</Activity></GingerRepositoryItem>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="9696856d-8edf-459b-8c40-a9390a0f0179" ItemType="RunSetConfig" CreatedBy="meni" Created="202312261643" GingerVersion="23.5.0.0" Version="3" LastUpdateBy="meni" LastUpdate="202312281413" />
+<GingerRepositoryItem><Header ItemGuid="9696856d-8edf-459b-8c40-a9390a0f0179" ItemType="RunSetConfig" CreatedBy="meni" Created="202312261643" GingerVersion="23.5.0.0" Version="6" LastUpdateBy="meni" LastUpdate="202401010816" />
 <RunSetConfig Guid="9696856d-8edf-459b-8c40-a9390a0f0179" Name="Default Run Set" ParentGuid="00000000-0000-0000-0000-000000000000" SealightsTestRecommendations="No">
 <CategoriesDefinitions>
 <SolutionCategoryDefinition Category="Product" Guid="7e3501d9-6edd-4a8d-9dee-eb7689737155" ParentGuid="00000000-0000-0000-0000-000000000000" SelectedValueID="00000000-0000-0000-0000-000000000000" />
@@ -20,7 +20,7 @@
 </ApplicationAgents>
 
 <BusinessFlowsRunList>
-<BusinessFlowRun BusinessFlowGuid="6775f4ef-070b-43a2-b92f-e48c1e0db1bd" BusinessFlowInstanceGuid="2adfeb8a-85ce-4c4f-acf7-85be54ac9141" BusinessFlowIsActive="True" BusinessFlowName="R2023.5_Flow2_Copy" Guid="b6dc513f-e26a-4d3d-a051-d6ea6b1288ab" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<BusinessFlowRun BusinessFlowGuid="fc1fa88e-daaa-44b8-b6d5-d7b11b8d284b" BusinessFlowInstanceGuid="83fc68e6-5342-4631-9b03-aa06ee610309" BusinessFlowIsActive="True" BusinessFlowName="1A_Flow1_HC" Guid="fe486e6e-b63f-47a8-bb66-cb523c2b6506" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </BusinessFlowsRunList>
 </GingerRunner>
 </GingerRunners>
