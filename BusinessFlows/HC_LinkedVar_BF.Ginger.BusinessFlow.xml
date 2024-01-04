@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="54ee0bdd-d9cc-4d7b-833e-501a3d0b05a2" ItemType="BusinessFlow" CreatedBy="meni" Created="202401040755" GingerVersion="23.5.0.0" Version="25" LastUpdateBy="meni" LastUpdate="202401040942" />
+<BusinessFlow Guid="54ee0bdd-d9cc-4d7b-833e-501a3d0b05a2" Name="HC_LinkedVar_BF" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
+<Activities>
+<Activity Active="True" ActivitiesGroupID="HC_LinkedVar_BF_Group" ActivityName="Activity 1_HC_LinkedVar_BF" Guid="6806c71a-5dd9-441e-a083-261036cef36a" ParentGuid="6806c71a-5dd9-441e-a083-261036cef36a" Type="Link" />
+<Activity Active="True" ActivitiesGroupID="HC_LinkedVar_BF_Group" ActivityName="Activity 2_HC_LinkedVar_BF_Copy" Guid="e35eb2e3-b093-48d2-a8e7-6cc8c46a5938" ParentGuid="e35eb2e3-b093-48d2-a8e7-6cc8c46a5938" Type="Link" />
+</Activities>
+
+<ActivitiesGroups>
+<ActivitiesGroup Guid="513dc5d6-032a-4e1a-bd03-a209dc2edf48" Name="HC_LinkedVar_BF_Group" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="6806c71a-5dd9-441e-a083-261036cef36a" ActivityName="Activity 1_HC_LinkedVar_BF" ActivityParentGuid="6806c71a-5dd9-441e-a083-261036cef36a" Guid="0a84a4af-b35f-4cf4-b86e-fdabb848c281" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="e35eb2e3-b093-48d2-a8e7-6cc8c46a5938" ActivityName="Activity 2_HC_LinkedVar_BF_Copy" ActivityParentGuid="e35eb2e3-b093-48d2-a8e7-6cc8c46a5938" Guid="f4505bb5-3c82-498b-9431-b8487140cf70" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+</ActivitiesGroups>
+
+<TargetApplications>
+<TargetApplication AppName="MyWebApp" Guid="d3b762f2-5eca-469e-b64a-dbe41588eb83" LastExecutingAgentName="Chrome" ParentGuid="90ae6717-09b1-4baf-9395-1ce8d17738e0" />
+</TargetApplications>
+</BusinessFlow></GingerRepositoryItem>

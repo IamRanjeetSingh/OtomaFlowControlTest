@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="8bbf6287-26cb-4620-8b5f-f10af9b6893c" ItemType="ActivitiesGroup" CreatedBy="meni" Created="202401031230" GingerVersion="23.5.0.0" Version="1" LastUpdateBy="meni" LastUpdate="202401031230" />
+<ActivitiesGroup Guid="8bbf6287-26cb-4620-8b5f-f10af9b6893c" Name="1A_Flow1_HC_3JAN_Group" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="75deaf78-b694-44c1-af1f-7062f9660f5c" ActivityName="1A_Flow1_HC_POM Activity - Swag Labs 1" ActivityParentGuid="76e8a896-b5e9-4869-b46b-14907e468c51" Guid="deaf2f44-d3f7-4f83-b036-a2554b944917" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="6ead3c4f-ba04-440a-92be-a43de1a01eaf" ActivityName="1A_Flow1_HC_Activity_Fail" ActivityParentGuid="bae8b4bf-435e-44fc-9018-08d78f5842de" Guid="4eb28a18-3df4-4dac-9953-7438cf7dd875" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup></GingerRepositoryItem>

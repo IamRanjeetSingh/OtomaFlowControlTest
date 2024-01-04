@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="815330a2-61e6-41ce-b3e7-b69301bedd3e" ItemType="Solution" CreatedBy="harsisin" Created="202310260844" GingerVersion="23.5.0.0" Version="10" LastUpdateBy="meni" LastUpdate="202312261634" />
+<GingerRepositoryItem><Header ItemGuid="815330a2-61e6-41ce-b3e7-b69301bedd3e" ItemType="Solution" CreatedBy="harsisin" Created="202310260844" GingerVersion="23.5.0.0" Version="12" LastUpdateBy="meni" LastUpdate="202401040932" />
 <Solution EncryptedValidationString="JPA/BNI6IDazzGaqiEGKCQ==" Guid="815330a2-61e6-41ce-b3e7-b69301bedd3e" Name="OtomaFlowControlTest" ParentGuid="00000000-0000-0000-0000-000000000000">
 <ApplicationPlatforms>
 <ApplicationPlatform AppName="MyWebApp" Guid="90ae6717-09b1-4baf-9395-1ce8d17738e0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" />
@@ -74,6 +74,11 @@
 <SolutionCategory Category="UserCategory2" Guid="9b59fa53-9dc6-46da-b342-fdd5c538b83c" ParentGuid="00000000-0000-0000-0000-000000000000" />
 <SolutionCategory Category="UserCategory3" Guid="8aca91f5-60b2-4be7-8110-4d05fa9179b6" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </SolutionCategories>
+
+<Variables>
+<VariableString Guid="84e0124e-fbe7-4234-adcc-80e6e619988f" InitialStringValue="standard_user" MappedOutputType="None" Name="GBL_UserName" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="False" SetAsOutputValue="False" />
+<VariableString Guid="f412cd17-d491-48cf-a7a2-74c58c6d464f" MappedOutputType="None" Name="GBL_TextVar" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="False" SetAsOutputValue="False" />
+</Variables>
 
 <VRTConfiguration>
 <VRTConfiguration DifferenceTolerance="0.0" FailActionOnCheckpointMismatch="Yes" Guid="7392f923-e5ec-4820-a793-7a10a064f540" ParentGuid="00000000-0000-0000-0000-000000000000" />
