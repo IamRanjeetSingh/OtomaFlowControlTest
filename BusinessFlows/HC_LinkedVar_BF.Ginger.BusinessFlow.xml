@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="54ee0bdd-d9cc-4d7b-833e-501a3d0b05a2" ItemType="BusinessFlow" CreatedBy="meni" Created="202401040755" GingerVersion="23.5.0.0" Version="25" LastUpdateBy="meni" LastUpdate="202401040942" />
+<GingerRepositoryItem><Header ItemGuid="54ee0bdd-d9cc-4d7b-833e-501a3d0b05a2" ItemType="BusinessFlow" CreatedBy="meni" Created="202401040755" GingerVersion="23.5.0.0" Version="26" LastUpdateBy="meni" LastUpdate="202401040947" />
 <BusinessFlow Guid="54ee0bdd-d9cc-4d7b-833e-501a3d0b05a2" Name="HC_LinkedVar_BF" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
 <Activities>
 <Activity Active="True" ActivitiesGroupID="HC_LinkedVar_BF_Group" ActivityName="Activity 1_HC_LinkedVar_BF" Guid="6806c71a-5dd9-441e-a083-261036cef36a" ParentGuid="6806c71a-5dd9-441e-a083-261036cef36a" Type="Link" />
