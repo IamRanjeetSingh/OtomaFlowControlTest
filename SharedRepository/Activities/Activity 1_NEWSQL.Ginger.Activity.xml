@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="fd4c4098-b4ae-4c37-8b25-25e42054daca" ItemType="Activity" CreatedBy="meni" Created="202401171036" GingerVersion="23.5.0.0" Version="1" LastUpdateBy="meni" LastUpdate="202401171036" />
-<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Activity 1_NEWSQL" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="fd4c4098-b4ae-4c37-8b25-25e42054daca" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="0%" POMMetaDataId="00000000-0000-0000-0000-000000000000" TargetApplication="MyWebApp" Type="Regular">
+<GingerRepositoryItem><Header ItemGuid="fd4c4098-b4ae-4c37-8b25-25e42054daca" ItemType="Activity" CreatedBy="meni" Created="202401171036" GingerVersion="23.5.0.0" Version="2" LastUpdateBy="meni" LastUpdate="202401171059" />
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Activity 1_NEWSQL" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="fd4c4098-b4ae-4c37-8b25-25e42054daca" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="0%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="MyWebApp" Type="Regular">
 <Variables>
 <VariableString Guid="619ee23b-f1ee-4528-8a4b-3f1ab6c65e6d" InitialStringValue="testsql" MappedOutputType="None" Name="New_SQL_VAR" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" SetAsOutputValue="False" />
 </Variables>
