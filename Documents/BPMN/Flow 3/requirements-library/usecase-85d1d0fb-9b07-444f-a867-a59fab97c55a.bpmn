@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:camunda="http://camunda.org/schema/1.0/bpmn" xmlns:ig="http://insightguard.com/schema/1.0/bpmn" targetNamespace="http://bpmn.io/schema/bpmn">
+  <bpmn:collaboration id="Collaboration_85d1d0fb-9b07-444f-a867-a59fab97c55a" isClosed="false" name="Flow 3">
+    <documentation id="doc_Collaboration_85d1d0fb-9b07-444f-a867-a59fab97c55a" textFormat="text/plain" xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" />
+    <bpmn:extensionElements xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL">
+      <ig:bpmnMetadata>
+        <ig:uuid>85d1d0fb-9b07-444f-a867-a59fab97c55a</ig:uuid>
+        <ig:bpmnName>Flow 3</ig:bpmnName>
+        <ig:description></ig:description>
+        <ig:systemRef>90ae6717-09b1-4baf-9395-1ce8d17738e0</ig:systemRef>
+        <ig:domainRef>32</ig:domainRef>
+        <ig:collaborationType>USECASE</ig:collaborationType>
+      </ig:bpmnMetadata>
+    </bpmn:extensionElements>
+    <bpmn:participant id="participant_90ae6717-09b1-4baf-9395-1ce8d17738e0" ig:systemRef="90ae6717-09b1-4baf-9395-1ce8d17738e0" name="MyWebApp" processRef="participant_90ae6717-09b1-4baf-9395-1ce8d17738e0_process">
+      <bpmn:documentation textFormat="text/plain" />
+    </bpmn:participant>
+  </bpmn:collaboration>
+  <bpmn:process id="participant_90ae6717-09b1-4baf-9395-1ce8d17738e0_process" isClosed="false" processType="None">
+    <bpmn:callActivity completionQuantity="1" id="callActivity_62b724dd-1269-48d7-b5f1-cc9fc8b2bddc" ig:processRef="d16a00a9-564b-467b-b753-e965b2e86883" isForCompensation="false" name="GoToActivityExample" startQuantity="1">
+      <bpmn:documentation textFormat="text/plain" />
+      <bpmn:incoming>flow_9952ed75-b0a9-4dea-8116-342710c8a91d</bpmn:incoming>
+      <bpmn:outgoing>flow_46b1fcb0-5d72-4195-9875-c3c796882437</bpmn:outgoing>
+    </bpmn:callActivity>
+    <bpmn:callActivity completionQuantity="1" id="callActivity_8fc8c863-e5a8-42ff-a574-1e56dcc67cc3" ig:processRef="b1b9194a-7d4b-4160-a322-1bb36e8b275a" isForCompensation="false" name="ReRunActivityExample" startQuantity="1">
+      <bpmn:documentation textFormat="text/plain" />
+      <bpmn:incoming>flow_46b1fcb0-5d72-4195-9875-c3c796882437</bpmn:incoming>
+      <bpmn:outgoing>flow_6d701139-e186-42b1-b9ae-a70570b16145</bpmn:outgoing>
+    </bpmn:callActivity>
+    <bpmn:callActivity completionQuantity="1" id="callActivity_52f1389a-1f1c-41fc-8d32-f65dd620dd0d" ig:processRef="975bf15f-8333-4517-a57b-c8dd4c03af2b" isForCompensation="false" name="GoToActivityByNameExample" startQuantity="1">
+      <bpmn:documentation textFormat="text/plain" />
+      <bpmn:incoming>flow_6d701139-e186-42b1-b9ae-a70570b16145</bpmn:incoming>
+      <bpmn:outgoing>flow_b2355235-6362-41aa-abd2-fc56e56a15cc</bpmn:outgoing>
+    </bpmn:callActivity>
+    <bpmn:callActivity completionQuantity="1" id="callActivity_4f2f66f8-bd40-4049-af10-2fc09ec0032d" ig:processRef="055edcd1-84e5-4aa7-9983-2d0634cfe335" isForCompensation="false" name="RunSharedRepositoryActivityExample" startQuantity="1">
+      <bpmn:documentation textFormat="text/plain" />
+      <bpmn:incoming>flow_b2355235-6362-41aa-abd2-fc56e56a15cc</bpmn:incoming>
+      <bpmn:outgoing>flow_75c28e76-6985-4e42-9a3d-ddd2cc282774</bpmn:outgoing>
+    </bpmn:callActivity>
+    <bpmn:callActivity completionQuantity="1" id="callActivity_6f424f35-e972-4679-a23c-35411b15ac95" ig:processRef="c47051ea-013e-4918-a630-c0335c8cbdb8" isForCompensation="false" name="GoToNextActivityExample" startQuantity="1">
+      <bpmn:documentation textFormat="text/plain" />
+      <bpmn:incoming>flow_75c28e76-6985-4e42-9a3d-ddd2cc282774</bpmn:incoming>
+      <bpmn:outgoing>flow_00778019-32ba-42d0-831c-18602946bf8c</bpmn:outgoing>
+    </bpmn:callActivity>
+    <bpmn:callActivity completionQuantity="1" id="callActivity_8cfc6912-358a-402f-9745-251734027a5e" ig:processRef="c6dd6089-199f-4938-8938-3f619c96fa5b" isForCompensation="false" name="StopBusinessFlowExample" startQuantity="1">
+      <bpmn:documentation textFormat="text/plain" />
+      <bpmn:incoming>flow_00778019-32ba-42d0-831c-18602946bf8c</bpmn:incoming>
+      <bpmn:outgoing>flow_5de62ff6-86ef-4d0f-a1c4-dcd6d139c894</bpmn:outgoing>
+    </bpmn:callActivity>
+    <bpmn:callActivity completionQuantity="1" id="callActivity_9a428bd8-44bc-4a2c-8792-2ac152e4ed65" ig:processRef="a6567bc5-17e6-4cdf-aeda-c85232baed3f" isForCompensation="false" name="FailActionAndStopBusinessFlowExample" startQuantity="1">
+      <bpmn:documentation textFormat="text/plain" />
+      <bpmn:incoming>flow_5de62ff6-86ef-4d0f-a1c4-dcd6d139c894</bpmn:incoming>
+      <bpmn:outgoing>flow_1aa98115-c2c4-423d-837f-26e45272c0e6</bpmn:outgoing>
+    </bpmn:callActivity>
+    <bpmn:callActivity completionQuantity="1" id="callActivity_e485b655-6b61-40d7-af8c-5c0202cab469" ig:processRef="00ab2dd1-eebe-4d8e-8fb5-07b253994a86" isForCompensation="false" name="StopRunExample" startQuantity="1">
+      <bpmn:documentation textFormat="text/plain" />
+      <bpmn:incoming>flow_1aa98115-c2c4-423d-837f-26e45272c0e6</bpmn:incoming>
+      <bpmn:outgoing>flow_89995810-fdf8-41a3-82c8-d7d08ec5e4a2</bpmn:outgoing>
+    </bpmn:callActivity>
+    <bpmn:callActivity completionQuantity="1" id="callActivity_e46b5d5b-fd24-4a4e-ab99-109a8b1cc6bb" ig:processRef="e5efe44d-b5f2-4a1f-9895-f1f1fe4e2367" isForCompensation="false" name="MultipleFlowControlExample" startQuantity="1">
+      <bpmn:documentation textFormat="text/plain" />
+      <bpmn:incoming>flow_89995810-fdf8-41a3-82c8-d7d08ec5e4a2</bpmn:incoming>
+      <bpmn:outgoing>flow_a7b3f72a-74bd-4feb-a10a-27f8d18153c1</bpmn:outgoing>
+    </bpmn:callActivity>
+    <bpmn:callActivity completionQuantity="1" id="callActivity_83a3ea8e-4612-4b41-bd90-efbf4ff99cec" ig:processRef="369f0dba-e6ed-495d-8d10-8f06441d9a2c" isForCompensation="false" name="GoToActivityWithRESTExample" startQuantity="1">
+      <bpmn:documentation textFormat="text/plain" />
+      <bpmn:incoming>flow_a7b3f72a-74bd-4feb-a10a-27f8d18153c1</bpmn:incoming>
+      <bpmn:outgoing>flow_1642fcfa-9497-4d4e-bf7c-bb8604a349df</bpmn:outgoing>
+    </bpmn:callActivity>
+    <bpmn:callActivity completionQuantity="1" id="callActivity_80d5f6b7-beb2-4c33-8263-fd0df9c968bb" ig:processRef="eebf3d50-3ca4-4a1d-89c1-b5e46c879dd2" isForCompensation="false" name="HC_FCTest_AG" startQuantity="1">
+      <bpmn:documentation textFormat="text/plain" />
+      <bpmn:incoming>flow_1642fcfa-9497-4d4e-bf7c-bb8604a349df</bpmn:incoming>
+      <bpmn:outgoing>flow_933b5c8f-e70b-4f5c-b7d5-796b406bf85b</bpmn:outgoing>
+    </bpmn:callActivity>
+    <bpmn:callActivity completionQuantity="1" id="callActivity_281fe4b1-ba38-410c-bd5a-e2f40dad9204" ig:processRef="14e07fbe-52fd-42f2-82c1-7d9880167a05" isForCompensation="false" name="HC_FCTest_AG_2_Multi" startQuantity="1">
+      <bpmn:documentation textFormat="text/plain" />
+      <bpmn:incoming>flow_933b5c8f-e70b-4f5c-b7d5-796b406bf85b</bpmn:incoming>
+      <bpmn:outgoing>flow_8446b982-1192-4c6d-b348-7bdede33ccd5</bpmn:outgoing>
+    </bpmn:callActivity>
+    <bpmn:startEvent id="event_4a5b8c2e-2d6c-4320-8bef-e1ea297f6e14" isInterrupting="true" name="" parallelMultiple="false">
+      <bpmn:documentation textFormat="text/plain" />
+      <bpmn:outgoing>flow_9952ed75-b0a9-4dea-8116-342710c8a91d</bpmn:outgoing>
+    </bpmn:startEvent>
+    <bpmn:endEvent id="event_2ff67ce2-1611-46e8-acd7-27a3c15669b2" name="">
+      <bpmn:documentation textFormat="text/plain" />
+      <bpmn:incoming>flow_8446b982-1192-4c6d-b348-7bdede33ccd5</bpmn:incoming>
+      <bpmn:terminateEventDefinition />
+    </bpmn:endEvent>
+    <bpmn:sequenceFlow id="flow_9952ed75-b0a9-4dea-8116-342710c8a91d" name="" sourceRef="event_4a5b8c2e-2d6c-4320-8bef-e1ea297f6e14" targetRef="callActivity_62b724dd-1269-48d7-b5f1-cc9fc8b2bddc">
+      <bpmn:documentation textFormat="text/plain" />
+    </bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="flow_46b1fcb0-5d72-4195-9875-c3c796882437" name="" sourceRef="callActivity_62b724dd-1269-48d7-b5f1-cc9fc8b2bddc" targetRef="callActivity_8fc8c863-e5a8-42ff-a574-1e56dcc67cc3">
+      <bpmn:documentation textFormat="text/plain" />
+    </bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="flow_6d701139-e186-42b1-b9ae-a70570b16145" name="" sourceRef="callActivity_8fc8c863-e5a8-42ff-a574-1e56dcc67cc3" targetRef="callActivity_52f1389a-1f1c-41fc-8d32-f65dd620dd0d">
+      <bpmn:documentation textFormat="text/plain" />
+    </bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="flow_b2355235-6362-41aa-abd2-fc56e56a15cc" name="" sourceRef="callActivity_52f1389a-1f1c-41fc-8d32-f65dd620dd0d" targetRef="callActivity_4f2f66f8-bd40-4049-af10-2fc09ec0032d">
+      <bpmn:documentation textFormat="text/plain" />
+    </bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="flow_75c28e76-6985-4e42-9a3d-ddd2cc282774" name="" sourceRef="callActivity_4f2f66f8-bd40-4049-af10-2fc09ec0032d" targetRef="callActivity_6f424f35-e972-4679-a23c-35411b15ac95">
+      <bpmn:documentation textFormat="text/plain" />
+    </bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="flow_00778019-32ba-42d0-831c-18602946bf8c" name="" sourceRef="callActivity_6f424f35-e972-4679-a23c-35411b15ac95" targetRef="callActivity_8cfc6912-358a-402f-9745-251734027a5e">
+      <bpmn:documentation textFormat="text/plain" />
+    </bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="flow_5de62ff6-86ef-4d0f-a1c4-dcd6d139c894" name="" sourceRef="callActivity_8cfc6912-358a-402f-9745-251734027a5e" targetRef="callActivity_9a428bd8-44bc-4a2c-8792-2ac152e4ed65">
+      <bpmn:documentation textFormat="text/plain" />
+    </bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="flow_1aa98115-c2c4-423d-837f-26e45272c0e6" name="" sourceRef="callActivity_9a428bd8-44bc-4a2c-8792-2ac152e4ed65" targetRef="callActivity_e485b655-6b61-40d7-af8c-5c0202cab469">
+      <bpmn:documentation textFormat="text/plain" />
+    </bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="flow_89995810-fdf8-41a3-82c8-d7d08ec5e4a2" name="" sourceRef="callActivity_e485b655-6b61-40d7-af8c-5c0202cab469" targetRef="callActivity_e46b5d5b-fd24-4a4e-ab99-109a8b1cc6bb">
+      <bpmn:documentation textFormat="text/plain" />
+    </bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="flow_a7b3f72a-74bd-4feb-a10a-27f8d18153c1" name="" sourceRef="callActivity_e46b5d5b-fd24-4a4e-ab99-109a8b1cc6bb" targetRef="callActivity_83a3ea8e-4612-4b41-bd90-efbf4ff99cec">
+      <bpmn:documentation textFormat="text/plain" />
+    </bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="flow_1642fcfa-9497-4d4e-bf7c-bb8604a349df" name="" sourceRef="callActivity_83a3ea8e-4612-4b41-bd90-efbf4ff99cec" targetRef="callActivity_80d5f6b7-beb2-4c33-8263-fd0df9c968bb">
+      <bpmn:documentation textFormat="text/plain" />
+    </bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="flow_933b5c8f-e70b-4f5c-b7d5-796b406bf85b" name="" sourceRef="callActivity_80d5f6b7-beb2-4c33-8263-fd0df9c968bb" targetRef="callActivity_281fe4b1-ba38-410c-bd5a-e2f40dad9204">
+      <bpmn:documentation textFormat="text/plain" />
+    </bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="flow_8446b982-1192-4c6d-b348-7bdede33ccd5" name="" sourceRef="callActivity_281fe4b1-ba38-410c-bd5a-e2f40dad9204" targetRef="event_2ff67ce2-1611-46e8-acd7-27a3c15669b2">
+      <bpmn:documentation textFormat="text/plain" />
+    </bpmn:sequenceFlow>
+  </bpmn:process>
+</bpmn:definitions>
