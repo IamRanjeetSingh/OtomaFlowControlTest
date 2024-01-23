@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="8fbbc962-491b-40c0-8507-13cd9cec48c5" ItemType="BusinessFlow" CreatedBy="harsisin" Created="202401231123" GingerVersion="23.5.0.0" Version="4" LastUpdateBy="harsisin" LastUpdate="202401231126" />
+<BusinessFlow Guid="8fbbc962-491b-40c0-8507-13cd9cec48c5" Name="Customer Creation Flow" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
+<Activities>
+<Activity Active="True" ActivitiesGroupID="Customer Creation Steps" ActivityName="Create Customer Account" Guid="166a5845-4de0-44c7-bf90-79803bd7f629" ParentGuid="166a5845-4de0-44c7-bf90-79803bd7f629" Type="Link" />
+<Activity Active="True" ActivitiesGroupID="Customer Creation Steps" ActivityName="Update Details" Guid="72dbc9db-fe46-495a-b01b-baf48c719a39" ParentGuid="72dbc9db-fe46-495a-b01b-baf48c719a39" Type="Link" />
+<Activity Active="True" ActivitiesGroupID="Plan Enablement Steps" ActivityName="Register Plan" Guid="fbe4eb27-a967-4ed8-a7c2-cc3fa932ca07" ParentGuid="fbe4eb27-a967-4ed8-a7c2-cc3fa932ca07" Type="Link" />
+<Activity Active="True" ActivitiesGroupID="Plan Enablement Steps" ActivityName="Start Subscription" Guid="b4b66e1f-15fb-47d4-a532-c6deacb2a634" ParentGuid="b4b66e1f-15fb-47d4-a532-c6deacb2a634" Type="Link" />
+</Activities>
+
+<ActivitiesGroups>
+<ActivitiesGroup Guid="9f838ba4-11c0-4e1f-90c2-f401d68d93ff" Name="Customer Creation Steps" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="166a5845-4de0-44c7-bf90-79803bd7f629" ActivityName="Create Customer Account" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="609cf3e6-bf91-4a9b-b295-e468f83b773b" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="72dbc9db-fe46-495a-b01b-baf48c719a39" ActivityName="Update Details" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="397beff3-6799-41b9-9dc9-5cce6d655998" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+<ActivitiesGroup Guid="cfc4de8c-2277-49ed-b43a-96b5eb69f3bc" Name="Plan Enablement Steps" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="fbe4eb27-a967-4ed8-a7c2-cc3fa932ca07" ActivityName="Register Plan" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="0d7024d0-7c7d-4917-9c72-877eaeb3219a" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="b4b66e1f-15fb-47d4-a532-c6deacb2a634" ActivityName="Start Subscription" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="8be1dbe0-2b39-4694-921c-8ca50cf94f17" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+</ActivitiesGroups>
+
+<TargetApplications>
+<TargetApplication AppName="CRM" Guid="f178e018-9ca8-4ed9-ae7b-ce228a1acc96" ParentGuid="787a0eb1-9736-4417-a8f4-dbd0a56d8992" />
+</TargetApplications>
+</BusinessFlow></GingerRepositoryItem>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="9f838ba4-11c0-4e1f-90c2-f401d68d93ff" ItemType="ActivitiesGroup" CreatedBy="harsisin" Created="202401231126" GingerVersion="23.5.0.0" Version="1" LastUpdateBy="harsisin" LastUpdate="202401231126" />
+<ActivitiesGroup Guid="9f838ba4-11c0-4e1f-90c2-f401d68d93ff" Name="Customer Creation Steps" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="166a5845-4de0-44c7-bf90-79803bd7f629" ActivityName="Create Customer Account" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="609cf3e6-bf91-4a9b-b295-e468f83b773b" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="72dbc9db-fe46-495a-b01b-baf48c719a39" ActivityName="Update Details" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="397beff3-6799-41b9-9dc9-5cce6d655998" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup></GingerRepositoryItem>

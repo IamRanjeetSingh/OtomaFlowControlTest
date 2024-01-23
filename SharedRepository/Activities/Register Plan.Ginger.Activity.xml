@@ -1,0 +1,3 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="fbe4eb27-a967-4ed8-a7c2-cc3fa932ca07" ItemType="Activity" CreatedBy="harsisin" Created="202401231126" GingerVersion="23.5.0.0" Version="1" LastUpdateBy="harsisin" LastUpdate="202401231126" />
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Register Plan" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="fbe4eb27-a967-4ed8-a7c2-cc3fa932ca07" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="0%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="CRM" Type="Regular" /></GingerRepositoryItem>

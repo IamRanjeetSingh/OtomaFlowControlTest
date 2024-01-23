@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="cfc4de8c-2277-49ed-b43a-96b5eb69f3bc" ItemType="ActivitiesGroup" CreatedBy="harsisin" Created="202401231126" GingerVersion="23.5.0.0" Version="1" LastUpdateBy="harsisin" LastUpdate="202401231126" />
+<ActivitiesGroup Guid="cfc4de8c-2277-49ed-b43a-96b5eb69f3bc" Name="Plan Enablement Steps" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="fbe4eb27-a967-4ed8-a7c2-cc3fa932ca07" ActivityName="Register Plan" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="0d7024d0-7c7d-4917-9c72-877eaeb3219a" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="b4b66e1f-15fb-47d4-a532-c6deacb2a634" ActivityName="Start Subscription" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="8be1dbe0-2b39-4694-921c-8ca50cf94f17" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup></GingerRepositoryItem>
