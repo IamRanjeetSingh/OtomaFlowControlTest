@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="9eb97c8d-5825-4bcf-9233-10d0d9f34842" ItemType="Activity" CreatedBy="harsisin" Created="202402141117" GingerVersion="24.2.1.1" Version="3" LastUpdateBy="harsisin" LastUpdate="202402141117" />
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="ETS BF 1 Group 1" ActivityName="ETS BF 1 Activity 1" AutomationStatus="Development" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="9eb97c8d-5825-4bcf-9233-10d0d9f34842" ParentGuid="9eb97c8d-5825-4bcf-9233-10d0d9f34842" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="CRM" Type="Regular">
+<Acts>
+<ActDummy Active="True" Description="Dummy Action" Guid="6ab9977c-e662-4c9c-b850-8ef8a232df21" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow" />
+</Acts>
+</Activity></GingerRepositoryItem>

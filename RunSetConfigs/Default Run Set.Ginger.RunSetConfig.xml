@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="9696856d-8edf-459b-8c40-a9390a0f0179" ItemType="RunSetConfig" CreatedBy="meni" Created="202312261643" GingerVersion="23.5.0.0" Version="8" LastUpdateBy="meni" LastUpdate="202401051405" />
+<GingerRepositoryItem><Header ItemGuid="9696856d-8edf-459b-8c40-a9390a0f0179" ItemType="RunSetConfig" CreatedBy="meni" Created="202312261643" GingerVersion="24.2.1.1" Version="11" LastUpdateBy="harsisin" LastUpdate="202402141110" />
 <RunSetConfig Guid="9696856d-8edf-459b-8c40-a9390a0f0179" Name="Default Run Set" ParentGuid="00000000-0000-0000-0000-000000000000" SealightsTestRecommendations="No">
 <CategoriesDefinitions>
 <SolutionCategoryDefinition Category="Product" Guid="7e3501d9-6edd-4a8d-9dee-eb7689737155" ParentGuid="00000000-0000-0000-0000-000000000000" SelectedValueID="00000000-0000-0000-0000-000000000000" />
@@ -16,11 +16,11 @@
 <GingerRunners>
 <GingerRunner Guid="72d870ac-4c20-4854-a9c7-fd93ea3215cb" Name="Runner 1" ParentGuid="00000000-0000-0000-0000-000000000000" RunOption="ContinueToRunall">
 <ApplicationAgents>
-<ApplicationAgent AgentID="5269ec2c-ae77-4d3d-b18b-ab5f9f4a0c65" AgentName="Chrome" AppID="90ae6717-09b1-4baf-9395-1ce8d17738e0" AppName="MyWebApp" Guid="494c33c5-2c3d-4340-962b-367ffb361019" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ApplicationAgent AgentID="5269ec2c-ae77-4d3d-b18b-ab5f9f4a0c65" AgentName="Chrome" AppID="bc55ca41-df12-4d00-8e8b-a343cc6102a0" AppName="CRM" Guid="384e4a80-bbef-4b18-9454-6bf1d8147878" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ApplicationAgents>
 
 <BusinessFlowsRunList>
-<BusinessFlowRun BusinessFlowGuid="54ee0bdd-d9cc-4d7b-833e-501a3d0b05a2" BusinessFlowInstanceGuid="f1d863db-7cb5-49d1-b6b6-0efe7c190ff0" BusinessFlowIsActive="True" BusinessFlowName="HC_LinkedVar_BF" Guid="0076728c-a516-467f-b004-532f23dc1d3e" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<BusinessFlowRun BusinessFlowGuid="5579d319-97ec-418c-968c-9507b1e3437e" BusinessFlowInstanceGuid="671f5ca1-4a3e-4613-a7eb-c4806d6b21c6" BusinessFlowIsActive="True" BusinessFlowName="ETS Flow 1" Guid="922830fa-dafd-473a-9d62-6dbd198af0a1" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </BusinessFlowsRunList>
 </GingerRunner>
 </GingerRunners>
