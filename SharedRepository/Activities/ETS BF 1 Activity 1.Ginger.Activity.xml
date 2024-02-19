@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="9eb97c8d-5825-4bcf-9233-10d0d9f34842" ItemType="Activity" CreatedBy="harsisin" Created="202402190729" GingerVersion="24.2.1.1" Version="1" LastUpdateBy="harsisin" LastUpdate="202402190729" />
-<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="ETS BF 1 Activity 1" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="9eb97c8d-5825-4bcf-9233-10d0d9f34842" ParentGuid="9eb97c8d-5825-4bcf-9233-10d0d9f34842" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="CRM" Type="Regular">
+<GingerRepositoryItem><Header ItemGuid="9eb97c8d-5825-4bcf-9233-10d0d9f34842" ItemType="Activity" CreatedBy="harsisin" Created="202402190731" GingerVersion="24.2.1.1" Version="3" LastUpdateBy="harsisin" LastUpdate="202402190731" />
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="ETS BF 1 Group 1" ActivityName="ETS BF 1 Activity 1" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="9eb97c8d-5825-4bcf-9233-10d0d9f34842" ParentGuid="9eb97c8d-5825-4bcf-9233-10d0d9f34842" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="CRM" Type="Regular">
 <Acts>
-<ActDummy Active="True" Description="Dummy Action" Guid="3791cfd7-a192-404e-a0b0-0bf11c151e59" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<ActDummy Active="True" Description="Dummy Action" Guid="59c35759-9419-4bf8-8292-944733be7126" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
 <FlowControls>
-<FlowControl Active="True" BusinessFlowControlAction="GoToBusinessFlow" FlowControlAction="FailActionAndStopBusinessFlow" Guid="8f4dbf2a-022e-454f-b576-7df8b49a2874" Operator="ActionFailed" ParentGuid="00000000-0000-0000-0000-000000000000" Status="Pending" Value="abc" />
+<FlowControl Active="True" BusinessFlowControlAction="GoToBusinessFlow" FlowControlAction="GoToActivity" Guid="110628a3-cdb7-42d3-a993-7d4db7ccd64c" Operator="ActionFailed" ParentGuid="00000000-0000-0000-0000-000000000000" Status="Pending" Value="bb857748-7ac0-468a-9b95-6fbc20e6bace#GUID_NAME#ETS BF 1 Activity 3" />
 </FlowControls>
 
 <InputValues>
-<ActInputValue Guid="73f2c80b-d867-4d8e-bbe4-79d8707ddc54" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="f01cf064-e111-4982-87a3-26f62b935fe2" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </InputValues>
 </ActDummy>
 </Acts>

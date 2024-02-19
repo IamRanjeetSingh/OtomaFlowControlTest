@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="5579d319-97ec-418c-968c-9507b1e3437e" ItemType="BusinessFlow" CreatedBy="harsisin" Created="202402141105" GingerVersion="24.2.1.1" Version="29" LastUpdateBy="harsisin" LastUpdate="202402190730" />
+<GingerRepositoryItem><Header ItemGuid="5579d319-97ec-418c-968c-9507b1e3437e" ItemType="BusinessFlow" CreatedBy="harsisin" Created="202402141105" GingerVersion="24.2.1.1" Version="34" LastUpdateBy="harsisin" LastUpdate="202402190732" />
 <BusinessFlow Guid="5579d319-97ec-418c-968c-9507b1e3437e" Name="ETS Flow 1" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
 <Activities>
 <Activity Active="True" ActivitiesGroupID="ETS BF 1 Group 1" ActivityName="ETS BF 1 Activity 1" Guid="9eb97c8d-5825-4bcf-9233-10d0d9f34842" ParentGuid="9eb97c8d-5825-4bcf-9233-10d0d9f34842" Type="Link" />
@@ -21,4 +21,8 @@
 <TargetApplications>
 <TargetApplication AppName="CRM" Guid="71ecd266-fc22-4acf-bacb-9fd681092e5c" LastExecutingAgentName="Chrome Virtual" ParentGuid="bc55ca41-df12-4d00-8e8b-a343cc6102a0" />
 </TargetApplications>
+
+<Variables>
+<VariableString Guid="55c1f430-19b2-4f45-acd4-e0c88156cc5e" MappedOutputType="None" Name="Dummy Variable" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="False" SetAsOutputValue="False" />
+</Variables>
 </BusinessFlow></GingerRepositoryItem>
