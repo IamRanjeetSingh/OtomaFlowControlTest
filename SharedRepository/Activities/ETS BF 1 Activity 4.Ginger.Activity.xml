@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="298a2462-3210-4e34-b175-a703577f9736" ItemType="Activity" CreatedBy="harsisin" Created="202402190932" GingerVersion="24.2.1.1" Version="1" LastUpdateBy="harsisin" LastUpdate="202402190932" />
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="ETS BF 1 Activity 4" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="298a2462-3210-4e34-b175-a703577f9736" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" TargetApplication="CRM" Type="Regular">
+<Acts>
+<ActDummy Active="True" Description="Dummy Action" Guid="b72827c7-6946-43f7-bd3b-46103f5e1fc4" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow" />
+</Acts>
+</Activity></GingerRepositoryItem>
