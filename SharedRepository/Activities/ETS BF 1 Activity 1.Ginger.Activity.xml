@@ -1,7 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="9eb97c8d-5825-4bcf-9233-10d0d9f34842" ItemType="Activity" CreatedBy="harsisin" Created="202402141117" GingerVersion="24.2.1.1" Version="3" LastUpdateBy="harsisin" LastUpdate="202402141117" />
-<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="ETS BF 1 Group 1" ActivityName="ETS BF 1 Activity 1" AutomationStatus="Development" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="9eb97c8d-5825-4bcf-9233-10d0d9f34842" ParentGuid="9eb97c8d-5825-4bcf-9233-10d0d9f34842" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="CRM" Type="Regular">
+<GingerRepositoryItem><Header ItemGuid="9eb97c8d-5825-4bcf-9233-10d0d9f34842" ItemType="Activity" CreatedBy="harsisin" Created="202402190729" GingerVersion="24.2.1.1" Version="1" LastUpdateBy="harsisin" LastUpdate="202402190729" />
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="ETS BF 1 Activity 1" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="9eb97c8d-5825-4bcf-9233-10d0d9f34842" ParentGuid="9eb97c8d-5825-4bcf-9233-10d0d9f34842" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="CRM" Type="Regular">
 <Acts>
-<ActDummy Active="True" Description="Dummy Action" Guid="6ab9977c-e662-4c9c-b850-8ef8a232df21" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow" />
+<ActDummy Active="True" Description="Dummy Action" Guid="3791cfd7-a192-404e-a0b0-0bf11c151e59" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<FlowControls>
+<FlowControl Active="True" BusinessFlowControlAction="GoToBusinessFlow" FlowControlAction="FailActionAndStopBusinessFlow" Guid="8f4dbf2a-022e-454f-b576-7df8b49a2874" Operator="ActionFailed" ParentGuid="00000000-0000-0000-0000-000000000000" Status="Pending" Value="abc" />
+</FlowControls>
+
+<InputValues>
+<ActInputValue Guid="73f2c80b-d867-4d8e-bbe4-79d8707ddc54" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+</ActDummy>
 </Acts>
 </Activity></GingerRepositoryItem>

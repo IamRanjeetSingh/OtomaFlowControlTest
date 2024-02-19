@@ -1,9 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="5579d319-97ec-418c-968c-9507b1e3437e" ItemType="BusinessFlow" CreatedBy="harsisin" Created="202402141105" GingerVersion="24.2.1.1" Version="12" LastUpdateBy="harsisin" LastUpdate="202402141117" />
+<GingerRepositoryItem><Header ItemGuid="5579d319-97ec-418c-968c-9507b1e3437e" ItemType="BusinessFlow" CreatedBy="harsisin" Created="202402141105" GingerVersion="24.2.1.1" Version="29" LastUpdateBy="harsisin" LastUpdate="202402190730" />
 <BusinessFlow Guid="5579d319-97ec-418c-968c-9507b1e3437e" Name="ETS Flow 1" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
 <Activities>
 <Activity Active="True" ActivitiesGroupID="ETS BF 1 Group 1" ActivityName="ETS BF 1 Activity 1" Guid="9eb97c8d-5825-4bcf-9233-10d0d9f34842" ParentGuid="9eb97c8d-5825-4bcf-9233-10d0d9f34842" Type="Link" />
 <Activity Active="True" ActivitiesGroupID="ETS BF 1 Group 1" ActivityName="ETS BF 1 Activity 2" Guid="7d3617d6-b85e-447a-be52-1eae74bd1e52" ParentGuid="7d3617d6-b85e-447a-be52-1eae74bd1e52" Type="Link" />
+<Activity Active="True" ActivitiesGroupID="ETS BF 1 Group 1" ActivityName="ETS BF 1 Activity 3" Guid="bb857748-7ac0-468a-9b95-6fbc20e6bace" ParentGuid="bb857748-7ac0-468a-9b95-6fbc20e6bace" Type="Link" />
 </Activities>
 
 <ActivitiesGroups>
@@ -11,8 +12,10 @@
 <ActivitiesIdentifiers>
 <ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="9eb97c8d-5825-4bcf-9233-10d0d9f34842" ActivityName="ETS BF 1 Activity 1" ActivityParentGuid="9eb97c8d-5825-4bcf-9233-10d0d9f34842" Guid="d426bfa7-2938-4d10-b470-a2f8081b4417" ParentGuid="00000000-0000-0000-0000-000000000000" />
 <ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="7d3617d6-b85e-447a-be52-1eae74bd1e52" ActivityName="ETS BF 1 Activity 2" ActivityParentGuid="7d3617d6-b85e-447a-be52-1eae74bd1e52" Guid="89e521fb-fc34-4df8-a68d-aa68c10693b6" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="bb857748-7ac0-468a-9b95-6fbc20e6bace" ActivityName="ETS BF 1 Activity 3" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="1a889210-f7a1-495c-9931-09f71950759c" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
+<ActivitiesGroup Guid="b970c19b-0c8d-41ef-9da0-a580c7ab1e27" Name="ETS BF 1 Group 2" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesGroups>
 
 <TargetApplications>
