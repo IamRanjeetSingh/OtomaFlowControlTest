@@ -1,0 +1,3 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="c28e35e7-f71a-4cc7-ac4e-a3d7eec68b4d" ItemType="Activity" CreatedBy="harsisin" Created="202402270828" GingerVersion="24.2.1.1" Version="1" LastUpdateBy="harsisin" LastUpdate="202402270828" />
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="ETS BF 2 Activity 2" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="c28e35e7-f71a-4cc7-ac4e-a3d7eec68b4d" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="0%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="MyWebApp2" Type="Regular" /></GingerRepositoryItem>

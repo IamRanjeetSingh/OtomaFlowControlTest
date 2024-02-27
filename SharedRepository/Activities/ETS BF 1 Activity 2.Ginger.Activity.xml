@@ -1,14 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="7d3617d6-b85e-447a-be52-1eae74bd1e52" ItemType="Activity" CreatedBy="harsisin" Created="202402190732" GingerVersion="24.2.1.1" Version="3" LastUpdateBy="harsisin" LastUpdate="202402190732" />
-<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="ETS BF 1 Group 1" ActivityName="ETS BF 1 Activity 2" AutomationStatus="Development" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="7d3617d6-b85e-447a-be52-1eae74bd1e52" ParentGuid="7d3617d6-b85e-447a-be52-1eae74bd1e52" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="CRM" Type="Regular">
+<GingerRepositoryItem><Header ItemGuid="7d3617d6-b85e-447a-be52-1eae74bd1e52" ItemType="Activity" CreatedBy="harsisin" Created="202402230839" GingerVersion="24.2.1.1" Version="3" LastUpdateBy="harsisin" LastUpdate="202402230839" />
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="ETS BF 1 Group 2" ActivityName="ETS BF 1 Activity 2" AutomationStatus="Development" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="7d3617d6-b85e-447a-be52-1eae74bd1e52" ParentGuid="bf1fbaa4-7f68-4393-87cf-fc53bcc6b47e" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="CRM" Type="Regular">
 <Acts>
-<ActDummy Active="True" Description="Dummy Action" Guid="7c5b47cd-150d-457f-8e11-64a448531976" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
-<FlowControls>
-<FlowControl Active="True" BusinessFlowControlAction="GoToBusinessFlow" FlowControlAction="RunSharedRepositoryActivity" Guid="68b9f382-bc75-44da-945c-08ea114e9931" Operator="ActionFailed" ParentGuid="00000000-0000-0000-0000-000000000000" Status="Pending" Value="{Var Name=Dummy Variable}" />
-</FlowControls>
-
+<ActDummy Active="True" Description="Dummy Action" Guid="73a8251d-672c-4168-89ec-9a341b93f0da" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
 <InputValues>
-<ActInputValue Guid="85ab5f48-151c-4192-adae-1a794eeda428" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="557c6f4c-882d-47de-9fbe-f20844cf66ad" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </InputValues>
 </ActDummy>
 </Acts>

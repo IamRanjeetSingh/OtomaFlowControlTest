@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="e43196b7-b202-49af-b8dc-8b5f046314b4" ItemType="ActivitiesGroup" CreatedBy="harsisin" Created="202402270828" GingerVersion="24.2.1.1" Version="1" LastUpdateBy="harsisin" LastUpdate="202402270828" />
+<ActivitiesGroup Guid="e43196b7-b202-49af-b8dc-8b5f046314b4" Name="ETS BF 2 Group" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="b8d4a95e-a8ab-4b00-95dd-97c60a722ff0" ActivityName="ETS BF 2 Activity 1" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="1b68b6d5-cfca-469f-b186-e19448b2fef6" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="c28e35e7-f71a-4cc7-ac4e-a3d7eec68b4d" ActivityName="ETS BF 2 Activity 2" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="b0320aaf-e441-46e2-afe1-147ad5f42dca" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup></GingerRepositoryItem>

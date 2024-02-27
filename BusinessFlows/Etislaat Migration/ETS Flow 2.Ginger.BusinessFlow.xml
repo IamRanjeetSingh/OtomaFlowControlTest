@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="349c4136-df15-4b55-9559-de6d2ec995a0" ItemType="BusinessFlow" CreatedBy="harsisin" Created="202402270826" GingerVersion="24.2.1.1" Version="6" LastUpdateBy="harsisin" LastUpdate="202402270828" />
+<BusinessFlow Guid="349c4136-df15-4b55-9559-de6d2ec995a0" Name="ETS Flow 2" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
+<Activities>
+<Activity Active="True" ActivitiesGroupID="ETS BF 2 Group" ActivityName="ETS BF 2 Activity 1" Guid="b8d4a95e-a8ab-4b00-95dd-97c60a722ff0" ParentGuid="b8d4a95e-a8ab-4b00-95dd-97c60a722ff0" Type="Link" />
+<Activity Active="True" ActivitiesGroupID="ETS BF 2 Group" ActivityName="ETS BF 2 Activity 2" Guid="c28e35e7-f71a-4cc7-ac4e-a3d7eec68b4d" ParentGuid="c28e35e7-f71a-4cc7-ac4e-a3d7eec68b4d" Type="Link" />
+</Activities>
+
+<ActivitiesGroups>
+<ActivitiesGroup Guid="e43196b7-b202-49af-b8dc-8b5f046314b4" Name="ETS BF 2 Group" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="b8d4a95e-a8ab-4b00-95dd-97c60a722ff0" ActivityName="ETS BF 2 Activity 1" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="1b68b6d5-cfca-469f-b186-e19448b2fef6" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="c28e35e7-f71a-4cc7-ac4e-a3d7eec68b4d" ActivityName="ETS BF 2 Activity 2" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="b0320aaf-e441-46e2-afe1-147ad5f42dca" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+</ActivitiesGroups>
+
+<TargetApplications>
+<TargetApplication AppName="MyWebApp" Guid="dd4cbc87-034c-4786-88a5-87bf8f122e81" ParentGuid="90ae6717-09b1-4baf-9395-1ce8d17738e0" />
+<TargetApplication AppName="MyWebApp2" Guid="d0556405-73f9-4cbf-a862-db746ad8009a" ParentGuid="7b8e01ff-f285-40f1-8116-e0c72611e02a" />
+</TargetApplications>
+</BusinessFlow></GingerRepositoryItem>
