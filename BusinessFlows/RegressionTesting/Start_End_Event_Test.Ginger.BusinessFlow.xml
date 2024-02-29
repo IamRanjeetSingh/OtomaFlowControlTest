@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="52c2a479-9130-461b-9d1b-706217c0c073" ItemType="BusinessFlow" CreatedBy="harsisin" Created="202402290543" GingerVersion="24.2.1.1" Version="5" LastUpdateBy="harsisin" LastUpdate="202402290544" />
+<BusinessFlow Guid="52c2a479-9130-461b-9d1b-706217c0c073" Name="Start_End_Event_Test" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
+<Activities>
+<Activity Active="True" ActivitiesGroupID="SEET_Group" ActivityName="SEET_Activity 1" Guid="7bf363c1-76e5-4960-b7b4-e29128e3ef42" ParentGuid="7bf363c1-76e5-4960-b7b4-e29128e3ef42" Type="Link" />
+<Activity Active="True" ActivitiesGroupID="SEET_Group" ActivityName="SEET_Activity 2" Guid="1d864f6d-3d75-41a4-b1dd-f3949d063633" ParentGuid="1d864f6d-3d75-41a4-b1dd-f3949d063633" Type="Link" />
+</Activities>
+
+<ActivitiesGroups>
+<ActivitiesGroup Guid="85245ecc-ac0b-4557-a129-dd5c3875f626" Name="SEET_Group" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="7bf363c1-76e5-4960-b7b4-e29128e3ef42" ActivityName="SEET_Activity 1" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="3ea56179-f242-401d-8446-1156ff7f5f75" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="1d864f6d-3d75-41a4-b1dd-f3949d063633" ActivityName="SEET_Activity 2" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="5e2164e6-6ff7-4945-949d-adffdea93a40" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+</ActivitiesGroups>
+
+<TargetApplications>
+<TargetApplication AppName="MyWebApp" Guid="5d6d9b86-a9cd-4254-83ff-e16089e5665b" ParentGuid="90ae6717-09b1-4baf-9395-1ce8d17738e0" />
+<TargetApplication AppName="MyWebApp2" Guid="06ba1e97-27e8-4541-9e4d-9f955befef27" ParentGuid="7b8e01ff-f285-40f1-8116-e0c72611e02a" />
+</TargetApplications>
+</BusinessFlow></GingerRepositoryItem>
